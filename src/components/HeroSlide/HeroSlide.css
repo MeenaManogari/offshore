@@ -1,0 +1,28 @@
+.slider {
+  padding: 100px;
+  padding-top: 250px;
+}
+.slider h2 {
+  color: #cc1f26;
+  font-size: 32px;
+}
+.slider p {
+  color: #cc1f26;
+  font-size: 30px;
+}
+.slider #opt {
+  color: white;
+  font-size: 30px;
+}
+.slider button {
+  background-color: #f12e36;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.slider button:hover {
+  background-color: rgb(48, 47, 47);
+}
