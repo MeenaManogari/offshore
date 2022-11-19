@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.benefit_card {
+  width: 350px;
+  height: 250px;
+  color: white;
+  object-fit: cover;
+  justify-items: center;
+}
+
+.appp h2 {
+  font-size: 24px;
+  margin-top: 8.5rem;
+  padding: 0 0 0 1.5rem;
+  cursor: pointer;
+}
+.appp h2:hover {
+  color: #f12e36;
+}
+.appp p {
+  font-size: 16px;
+  padding: 0 0 0 1.5rem;
+}
+.benefit_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 0 0 4rem;
+  gap: 2rem;
+}
+.butn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 26px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.butn:hover {
+  background-color: #2e2e2e;
+}
+.companyformation {
+  text-align: center;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}
+h1 {
+  padding: 0 0 0 4rem;
+}
+@media (max-width: 48rem) {
+  .benefit_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 0 0 2rem;
+    gap: 2rem;
+  }
+}
+@media (max-width: 30rem) {
+  .benefit_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 0 0 2rem;
+    gap: 2rem;
+  }
+}

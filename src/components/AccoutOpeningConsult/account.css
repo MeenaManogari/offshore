@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.account {
+  /* width: 100%; */
+  padding: 0 0 2rem 0;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.head {
+  color: white;
+  font-size: 26px;
+  padding: 3.5rem 0 0 3.5rem;
+  text-align: left;
+}
+.segments {
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 0 0 3.5rem;
+  margin-top: 2rem;
+}
+.sections {
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+  border-radius: 3px;
+  text-align: center;
+  padding: 30px 15px;
+  color: #2e2e2e;
+  cursor: pointer;
+  width: 85%;
+  height: 100%;
+}
+.sections h1 {
+  font-size: 16px;
+  color: rgb(204, 31, 38);
+  padding: 1.5rem 0 0 0.5rem;
+}
+.sections p {
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.butnn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 60px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.butn:hover {
+  background-color: #2e2e2e;
+}
+@media (max-width: 48rem) {
+  .segments {
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+}
+@media (max-width: 30rem) {
+  .segments {
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+}

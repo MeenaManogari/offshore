@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.account_card {
+  width: 350px;
+  height: 150px;
+}
+.accounting {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* align-items: center;
+  justify-content: space-around; */
+}
+.taxes {
+  /* margin-top: 28%; */
+  height: 200px;
+  width: 350px;
+  background: #e6e6e6;
+  position: relative;
+  /* z-index: -1; */
+}
+.taxes h2 {
+  font-size: 16px;
+  padding: 1.5rem 0 0 0;
+  text-align: cent;
+}
+.country {
+  background: #e6e6e6b3;
+  padding: 20px 20px 20px;
+  margin-top: 5.5rem;
+}
