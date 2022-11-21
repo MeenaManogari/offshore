@@ -1,0 +1,140 @@
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #454545;
+  padding: 50px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dropdown {
+  display: flex;
+  gap: 310px;
+  padding-left: 110px;
+}
+button {
+  border: none;
+  background-color: #454545;
+  color: white;
+  font-size: 18px;
+}
+select {
+  background-color: #454545;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+option {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border: none;
+}
+.linkone,
+.linktwo,
+.linkthree,
+.linkfour,
+.linkfive {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.linkone a,
+.linktwo a,
+.linkthree a,
+.linkfour a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.media h3 {
+  color: white;
+}
+.linkfive {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mediaicon {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #2e2e2e;
+  padding: 50px 0 50px 0;
+}
+.contact h4 {
+  color: white;
+  padding-left: 125px;
+}
+.countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.listone,
+.listtwo,
+.listthree,
+.listfour,
+.listfive,
+.listsix {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.listone a,
+.listtwo a,
+.listthree a,
+.listfour a,
+.listfive a,
+.listsix a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.hline {
+  width: 100%;
+  border: 0.5px solid lightgray;
+}
+.viewmore a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.viewmore {
+  text-align: center;
+}
+.footcards .bg {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.footcards {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.pageend {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.pageend p {
+  color: white;
+  font-size: 14px;
+  padding-left: 50px;
+}
+.footend {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
