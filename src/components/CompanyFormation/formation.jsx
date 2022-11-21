@@ -68,7 +68,7 @@ const Formation = () => {
   });
   return (
     <React.Fragment>
-      <div>
+      <div className="formation-head">
         <h1>Company Formation</h1>
       </div>
 

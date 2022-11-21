@@ -3,23 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.account_card {
-  width: 350px;
-  height: 150px;
-}
+
 .accounting {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* align-items: center;
-  justify-content: space-around; */
+  align-content: center;
+  justify-content: center;
 }
 .taxes {
-  /* margin-top: 28%; */
   height: 200px;
   width: 350px;
   background: #e6e6e6;
-  position: relative;
-  /* z-index: -1; */
 }
 .taxes h2 {
   font-size: 16px;
@@ -27,7 +21,56 @@
   text-align: cent;
 }
 .country {
+  height: 75px;
+  width: 350px;
   background: #e6e6e6b3;
   padding: 20px 20px 20px;
-  margin-top: 5.5rem;
 }
+.taxes a {
+  color: red;
+}
+.taxing {
+  text-align: center;
+  padding: 2rem 02rem 0;
+}
+.note p {
+  padding: 10px;
+  color: #8d8d8d;
+}
+.account_card {
+  align-content: center;
+  justify-content: center;
+  padding: 3rem 0 0 0;
+}
+.account_butn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 60px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.country a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+@media (max-width: 90rem) {
+  .accounting {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 48rem) {
+  .accounting {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 30rem) {
+  .accounting {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+} ;

@@ -10,38 +10,42 @@ import ukflag from "../../assets/icons/uk.png";
 const Tax = () => {
   const taxaccount = [
     {
-      image: singapore,
-      images: sporeflag,
-      text: "Help you prepare, maintain your accounting documents and audit by a Certified Public Accountant firm",
-    },
-    {
       image: hongkong,
       images: kongflag,
+      name: "Hongkong",
+      link: "/accounting-auditing/jurisdiction/hong-kong",
       text: "Our specialists assist you to fulfill the compliance requirement and keep proper books of accounts, identifying tax-efficient strategie",
     },
     {
+      image: singapore,
+      images: sporeflag,
+      name: "Singapore",
+      link: "/accounting-auditing/jurisdiction/singapore",
+      text: "Help you prepare, maintain your accounting documents and audit by a Certified Public Accountant firm",
+    },
+
+    {
       image: uk,
       images: ukflag,
+      name: "United Kingdom",
+      link: "/accounting-auditing/jurisdiction/united-kingdom",
       text: "Prepare account and help to reduce the administrative, request UTR number and tax assessment for your company allowing you to concentrate on running your business",
     },
   ];
 
   const renderaccount = taxaccount.map((opening) => {
     return (
-      <div
-        className="account_card"
-        style={{
-          background: `url(${opening.image})`,
-          backgroundSize: "cover",
-          backgroundImage: "Transparent",
-        }}
-      >
-        <div className="country">
-          {" "}
-          <h3>{opening.images}</h3>{" "}
-        </div>
-        <div className="taxes">
-          <h2>{opening.text}</h2>
+      <div className="accoun_cardfull">
+        <div className="account_card">
+          <img src={opening.image} alt="" width={350} height={175} />{" "}
+          <div className="country">
+            <img src={opening.images} />
+            <a href={opening.link}>{opening.name} </a>
+          </div>
+          <div className="taxes">
+            <h2>{opening.text}</h2>
+            <a href={opening.link}>Read more</a>
+          </div>
         </div>
       </div>
     );
@@ -53,7 +57,7 @@ const Tax = () => {
       </div>
 
       <div className="accounting">{renderaccount}</div>
-      {/* <div className="note">
+      <div className="note">
         <p>Note:</p>
         <p>
           Accounting & audit just apply for jurisdictions where the government
@@ -66,8 +70,8 @@ const Tax = () => {
       </div>
       <div className="taxing">
         {" "}
-        <button className="butn">See more details</button>
-      </div> */}
+        <button className="account_butn">See more details</button>
+      </div>
     </React.Fragment>
   );
 };

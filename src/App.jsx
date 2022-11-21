@@ -8,7 +8,7 @@ import Tax from "./components/tax/tax";
 import ServiceOffice from "./components/ServiceOffice/Serviceofice";
 import Footer from "./components/Footer/Footer";
 import Appload from "./components/DownloadAbout/Loadabout";
-// import Announce from "./components/Promotion/promotion";
+import Announce from "./components/Promotion/promotion";
 const App = () => {
   return (
     <>
@@ -17,10 +17,10 @@ const App = () => {
       <Formation />
       <Account />
       <ServiceOffice />
-      {/* <Tax /> */}
+      <Tax />
+      <Announce />
       <Appload />
       <Footer />
-      {/* <Announce /> */}
     </>
   );
 };

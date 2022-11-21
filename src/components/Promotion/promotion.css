@@ -1,5 +1,71 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
+@font-face {
+  font-family: "Montserrat-Light.ttf";
+  src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium.ttf";
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Regular.ttf";
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+.accoun_cardfull {
+  padding: 10px 0 20px;
+}
+.promotion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.promotion-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.promotion-card h2 {
+  font-size: 14px;
+  color: #8d8d8d;
+  padding: 0 0 5px 0;
+}
+.promotion-link a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.promotion-link a:hover {
+  color: red;
+}
+.promotion_butn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 90px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+@media (max-width: 90rem) {
+  .promotion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 48rem) {
+  .promotion {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 30rem) {
+  .promotion {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
