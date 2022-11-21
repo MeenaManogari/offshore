@@ -18,9 +18,9 @@ const App = () => {
       <Account />
       <ServiceOffice />
       <Tax />
+      <Announce />
       <Appload />
       <Footer />
-      <Announce />
     </>
   );
 };
