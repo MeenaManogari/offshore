@@ -80,9 +80,7 @@ const Header = () => {
           <button className="dropbtn">
             Company Formation<i class="fa fa-caret-down"></i>
           </button>
-          <div>
-            <h3>Company Formation</h3>
-          </div>
+
           <div class="dropdown-content">
             <a href="#">Featured</a>
             <a href="#">Jurisdictions</a>
