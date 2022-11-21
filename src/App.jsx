@@ -6,7 +6,9 @@ import Account from "./components/AccoutOpeningConsult/account";
 import Formation from "./components/CompanyFormation/formation";
 import Tax from "./components/tax/tax";
 import ServiceOffice from "./components/ServiceOffice/Serviceofice";
-// import Announce from "./components/Promotion/promotion";
+import Announce from "./components/Promotion/promotion";
+import Club from "./components/oneibc/oneibc";
+import Partnership from "./components/partnership/Partnership";
 const App = () => {
   return (
     <>
@@ -14,9 +16,11 @@ const App = () => {
       <Hero />
       <Formation />
       <Account />
-      <ServiceOffice />
       <Tax />
-      {/* <Announce /> */}
+      <ServiceOffice />
+      <Announce />
+      <Club />
+      <Partnership />
     </>
   );
 };

@@ -14,6 +14,7 @@ const Account = () => {
         background: `url(${background})`,
         backgroundSize: "cover",
         backgroundImage: "Transparent",
+        width: "100%",
       }}
     >
       <div className="head">
