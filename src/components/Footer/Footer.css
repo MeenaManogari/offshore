@@ -1,9 +1,9 @@
-/* .foot {
+.foot {
   display: flex;
   flex-direction: column;
   gap: 30px;
   background-color: #454545;
-  padding: 50px 0 50px 0;
+  padding: 50px;
 }
 .links {
   display: flex;
@@ -64,20 +64,21 @@ option {
   flex-direction: row;
   gap: 16px;
 }
-.contacts {
+.contact {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  background-color: #454545;
+  gap: 50px;
+  background-color: #2e2e2e;
   padding: 50px 0 50px 0;
 }
-.contacts h4 {
+.contact h4 {
   color: white;
+  padding-left: 125px;
 }
-.country {
+.countries {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .listone,
 .listtwo,
@@ -98,4 +99,42 @@ option {
   text-decoration: none;
   color: white;
   font-size: 18px;
-} */
+}
+.hline {
+  width: 100%;
+  border: 0.5px solid lightgray;
+}
+.viewmore a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.viewmore {
+  text-align: center;
+}
+.footcards .bg {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.footcards {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.pageend {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.pageend p {
+  color: white;
+  font-size: 14px;
+  padding-left: 50px;
+}
+.footend {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

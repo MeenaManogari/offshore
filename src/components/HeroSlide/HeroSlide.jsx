@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import slideone from "../../assets/images/home/banner_announce.jpg";
 import slidetwo from "../../assets/images/home/banner_free_account.jpg";
 import "./HeroSlide.css";
+import "../../App.css";
 const Hero = () => {
   const settings = {
     dots: true,
@@ -24,6 +25,7 @@ const Hero = () => {
             style={{
               backgroundImage: `url(${slideone})`,
               backgroundRepeat: "no-repeat",
+
               width: "100%",
             }}
           >

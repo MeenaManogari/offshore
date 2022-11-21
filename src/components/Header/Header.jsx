@@ -5,7 +5,7 @@ import user from "../../assets/icons/usericon.svg";
 import notify from "../../assets/icons/notifyicon.svg";
 import search from "../../assets/icons/searchicon.svg";
 import "./Header.css";
-
+import "../../App.css";
 const Header = () => {
   return (
     <>
@@ -18,11 +18,11 @@ const Header = () => {
           </p>
         </div>
         <div className="links">
-          <div className="dropdown">
-            <button className="dropbtn">
+          <div className="headdropdown">
+            <button className="headdropbtn">
               india <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div class="headdropdown-content">
               <a href="#">Link 1</a>
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>
@@ -31,12 +31,12 @@ const Header = () => {
               <a href="#">Link 6</a>
             </div>
           </div>
-          <div className="dropdown">
-            <button className="dropbtn">
+          <div className="headdropdown">
+            <button className="headdropbtn">
               English
               <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div class="headdropdown-content">
               <a href="#">English</a>
               <a href="#">বাংলা</a>
               <a href="#">हिन्दी</a>
@@ -48,11 +48,11 @@ const Header = () => {
               <a href="#">Malayalam</a>
             </div>
           </div>
-          <div className="dropdown">
-            <button className="dropbtn">
+          <div className="headdropdown">
+            <button className="headdropbtn">
               USD<i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div class="headdropdown-content">
               <input type="search" />
               <a href="#">AED</a>
               <a href="#">EUR</a>
@@ -74,14 +74,14 @@ const Header = () => {
       <div className="border"></div>
       <div className="navlink">
         <button>
-          <img src={logo} width="250px" height="120px" />
+          <img src={logo} width="250px" height="80px" />
         </button>
-        <div className="dropdown">
-          <button className="dropbtn">
+        <div className="linkdropdown">
+          <button className="linkdropbtn">
             Company Formation<i class="fa fa-caret-down"></i>
           </button>
 
-          <div class="dropdown-content">
+          <div class="linkdropdown-content">
             <a href="#">Featured</a>
             <a href="#">Jurisdictions</a>
             <a href="#">How To Setup</a>
@@ -91,12 +91,11 @@ const Header = () => {
             <a href="#">Company Renewal</a>
             <a href="#">FAQs</a>
             <a href="#">Download&Form</a>
-            <a href="#">Link 6</a>
           </div>
         </div>
-        <div className="dropdown">
-          <button className="dropbtn">Account Opening Consultancy</button>
-          <div class="dropdown-content">
+        <div className="linkdropdown">
+          <button className="linkdropbtn">Account Opening Consultancy</button>
+          <div class="linkdropdown-content">
             <a href="#">Featured</a>
             <a href="#">How to OpenAccount</a>
             <a href="#">Fees</a>
@@ -105,9 +104,9 @@ const Header = () => {
             <a href="#">DownloadForm</a>
           </div>
         </div>
-        <div className="dropdown">
-          <button className="dropbtn">All Services</button>
-          <div class="dropdown-content">
+        <div className="linkdropdown">
+          <button className="linkdropbtn">All Services</button>
+          <div class="linkdropdown-content">
             <a href="#">Tax-Accounting&Auditing</a>
             <a href="#">MerchantAccountOnline</a>
             <a href="#">ShelfCompany</a>
@@ -118,11 +117,11 @@ const Header = () => {
             <a href="#">Company Strike Off</a>
           </div>
         </div>
-        <div className="dropdown">
-          <button className="dropbtn">
+        <div className="linkdropdown">
+          <button className="linkdropbtn">
             One IBC Club<sup>TM</sup>
           </button>
-          <div class="dropdown-content">
+          <div class="linkdropdown-content">
             <a href="#">Member Benefits</a>
             <a href="#">Tiers and Benefits</a>
             <a href="#">How it works</a>
@@ -131,9 +130,9 @@ const Header = () => {
         <button>
           One IBC Club<sup>TM</sup>Digital App
         </button>
-        <div className="dropdown">
-          <button className="dropbtn">More</button>
-          <div class="dropdown-content">
+        <div className="linkdropdown">
+          <button className="linkdropbtn">More</button>
+          <div class="linkdropdown-content">
             <a href="#">Promotion</a>
             <a href="#">AboutUs</a>
             <a href="#">Partnership</a>
