@@ -25,8 +25,8 @@ const Hero = () => {
             style={{
               backgroundImage: `url(${slideone})`,
               backgroundRepeat: "no-repeat",
-
-              width: "100%",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
             }}
           >
             <h2>ANNOUNCEMENT OF FEE</h2>
@@ -41,8 +41,8 @@ const Hero = () => {
             style={{
               background: `url(${slidetwo})`,
               backgroundRepeat: "no-repeat",
-
-              width: "100%",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
             }}
           >
             <h2 id="opt">Get a free DNBC account with One IBC</h2>

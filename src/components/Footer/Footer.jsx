@@ -181,6 +181,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="chat">
+        <button>Chat with us now!</button>
+      </div>
     </>
   );
 };

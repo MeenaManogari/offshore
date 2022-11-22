@@ -138,3 +138,21 @@ option {
   flex-direction: column;
   gap: 50px;
 }
+.chat button {
+  border: 1px solid #f12e36;
+  width: 20%;
+  border-radius: 8px 8px 0 0;
+  background-color: #f12e36;
+  padding: 12px 18px;
+  bottom: 0px;
+  right: 20px;
+  position: fixed;
+  z-index: 1000;
+  cursor: pointer;
+}
+.chat {
+  background-color: white;
+  text-align: right;
+  padding-right: 40px;
+  position: relative;
+}

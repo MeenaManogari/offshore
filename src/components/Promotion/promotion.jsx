@@ -40,7 +40,7 @@ const Announce = () => {
         <div className="promotion-card">
           <a href={announce.link}>
             {" "}
-            <img src={announce.image} alt="" width={200} height={200} />
+            <img src={announce.image} alt="" />
           </a>
           <div className="promotion-link">
             <a href={announce.link}>{announce.title}</a>
