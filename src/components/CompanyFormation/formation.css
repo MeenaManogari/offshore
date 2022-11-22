@@ -5,17 +5,16 @@
 }
 
 .benefit_card {
-  width: 350px;
-  height: 250px;
+  /* width: 345px;
+  height: 244px; */
   color: white;
   object-fit: cover;
   justify-items: center;
 }
 
 .appp h2 {
-  font-size: 22px;
-  font-family: "Montserrat-Regular";
-  margin-top: 8.5rem;
+  font-size: 18px;
+  margin-top: 9.5rem;
   padding: 0 0 0 1.5rem;
   cursor: pointer;
 }
@@ -23,16 +22,21 @@
   color: #f12e36;
 }
 .appp p {
-  font-size: 16px;
-  font-family: "Montserrat-Light";
-  padding: 0 0 0 1.5rem;
+  font-size: 12px;
+  padding: 0.3rem 0 0 1.5rem;
 }
 .benefit_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 0 0 4rem;
+  justify-content: center;
+  padding: 5rem;
   gap: 2rem;
 }
+.benefit_section img {
+  width: 100%;
+  height: 100vh;
+}
+
 .butn {
   color: #fff;
   font-size: 14px;
@@ -54,12 +58,21 @@
 .formation-head h1 {
   padding: 0 0 0 4rem;
 }
+@media (max-width: 90rem) {
+  .benefit_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+  }
+}
 @media (max-width: 48rem) {
   .benefit_section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem 0 0 2rem;
     gap: 2rem;
+    justify-content: center;
   }
 }
 @media (max-width: 30rem) {

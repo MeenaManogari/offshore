@@ -27,7 +27,7 @@ const Footer = () => {
     <>
       <div className="foot">
         <div className="dropdown">
-          <button> India</button>
+          <button className="footbtn"> India</button>
           <select>
             <option value="1">
               <img src={language} /> English

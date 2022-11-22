@@ -12,7 +12,7 @@ const Formation = () => {
   const benefits = [
     {
       image: hongkong,
-      title: "Hong Kong offshore company formation",
+      title: " Offshore company in Hong Kong",
       text: " International Finance Center ",
       price: "Simple tax system",
     },

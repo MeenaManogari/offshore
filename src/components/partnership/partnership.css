@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.partnership_complete {
+  padding: 6rem;
+}
+.partnershipbbg {
+  color: #ffffff;
+}
+.partnership-head {
+  padding: 0 0 0 4rem;
+}
+
+.partnership-head h1 {
+  font-size: 26px;
+  padding: 0 0 1rem 0;
+}
+
+.partnership-subhead {
+  padding: 0 0 0 4rem;
+}
+.partnership-subhead h3 {
+  font-size: 20px;
+  padding: 1rem 0 0 0;
+}
+.partnership_butns {
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 14px;
+  padding: 16px 60px;
+  float: right;
+  border-radius: 23px;
+  cursor: pointer;
+  float: left;
+}
+.partnership_butns:hover {
+  background-color: #2e2e2e;
+}
+.partnership_cover {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  padding: 4rem 4rem 4rem 0;
+  /* gap: 10rem; */
+}

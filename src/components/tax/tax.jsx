@@ -35,15 +35,17 @@ const Tax = () => {
 
   const renderaccount = taxaccount.map((opening) => {
     return (
-      <div className="accoun_cardfull">
+      <div className="account_cardfull">
         <div className="account_card">
-          <img src={opening.image} alt="" width={350} height={175} />{" "}
+          <div className="account_topimages">
+            <img src={opening.image} alt="" />{" "}
+          </div>
           <div className="country">
             <img src={opening.images} />
             <a href={opening.link}>{opening.name} </a>
           </div>
           <div className="taxes">
-            <h2>{opening.text}</h2>
+            <p>{opening.text}</p>
             <a href={opening.link}>Read more</a>
           </div>
         </div>

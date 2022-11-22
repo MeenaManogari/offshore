@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.judicial_render {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* text-align: center; */
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.judicial_interior img {
+  width: 100%;
+}
+.link_text {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #333333;
+}
+.link_text:hover {
+  color: red;
+}
+.link_text p {
+  gap: 1.5rem;
+}
+.link_text a {
+  gap: 1.5rem;
+}
+.judicial_butn {
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 60px;
+  background-color: #f12e36;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+#read {
+  color: red;
+  float: right;
+  padding: 2rem 1rem 0 0;
+}

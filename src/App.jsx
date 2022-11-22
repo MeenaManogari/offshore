@@ -11,6 +11,7 @@ import Appload from "./components/DownloadAbout/Loadabout";
 import Announce from "./components/Promotion/promotion";
 import Club from "./components/oneibc/oneibc";
 import Partnership from "./components/partnership/Partnership";
+import Judicial from "./components/Judicial/judicial";
 const App = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const App = () => {
       <Announce />
       <Club />
       <Partnership />
+      <Judicial />
       <Appload />
       <Footer />
     </>

@@ -57,6 +57,17 @@
 .butn:hover {
   background-color: #2e2e2e;
 }
+@media (max-width: 90rem) {
+  .segments {
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 0 0 3.5rem;
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 48rem) {
   .segments {
     text-align: center;
