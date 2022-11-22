@@ -5,6 +5,7 @@
 .slider h2 {
   color: #cc1f26;
   font-size: 32px;
+  text-shadow: 2px 2px 5px rgb(97, 95, 95);
 }
 .slider p {
   color: #cc1f26;

@@ -2,11 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat-Bold.ttf";
-  font-family: "Montserrat-Light.ttf";
-  font-family: "Montserrat-Medium.ttf";
+
   font-family: "Montserrat-Regular.ttf";
-  font-family: "Montserrat-Black.ttf";
 }
 @font-face {
   font-family: "Montserrat-Bold.ttf";
