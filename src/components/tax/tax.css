@@ -11,6 +11,7 @@
 }
 .account_topimages img {
   width: 100%;
+  height: auto;
 }
 .taxes {
   background: #e6e6e6;
@@ -76,19 +77,19 @@
   .accounting {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 3rem;
-    gap: 1rem;
+    /* padding: 3rem;
+    gap: 1rem; */
   }
   .taxes {
-    height: 40vh;
+    height: 45vh;
   }
 }
 @media (max-width: 30rem) {
   .accounting {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 3rem;
-    gap: 0.5rem;
+    /* padding: 3rem;
+    gap: 0.5rem; */
   }
   .taxes {
     height: 20vh;

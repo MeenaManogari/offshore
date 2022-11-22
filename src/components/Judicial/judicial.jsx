@@ -83,7 +83,7 @@ const Judicial = () => {
         <h1>Jurisdiction Update</h1>
       </div>
       <div className="judicial_render">{renderjudicial} </div>
-      <div>
+      <div className="judicial_butn">
         <button>View all</button>
       </div>
     </React.Fragment>
