@@ -11,6 +11,8 @@ import Announce from "../components/Promotion/promotion";
 import Club from "../components/oneibc/oneibc";
 import Partnership from "../components/partnership/Partnership";
 import Judicial from "../components/Judicial/judicial";
+import Events from "../components/events/event";
+import Article from "../components/Article/article";
 const Home = () => {
   return (
     <>
@@ -24,6 +26,8 @@ const Home = () => {
       <Club />
       <Partnership />
       <Judicial />
+      <Article />
+      <Events />
       <Appload />
       <Footer />
     </>

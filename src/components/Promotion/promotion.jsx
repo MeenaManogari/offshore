@@ -1,6 +1,6 @@
 import React from "react";
 import "./promotion.css";
-import announce from "../../assets/images/home/announce-promo.jpg";
+import announce from "../../assets/images/home/announce-prom.jpg";
 import seasonal from "../../assets/images/home/seasonal-packages.jpg";
 import openbvi from "../../assets/images/home/openbvicompany.jpg";
 import service from "../../assets/images/home/better-service.jpg";

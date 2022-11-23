@@ -22,6 +22,7 @@ const Partnership = () => {
               <h1>Partnership & Intermediaries</h1>
 
               <div className="partnership-interrior">
+                <h2>Referal Program</h2>
                 <ul>
                   <li>
                     Become our referer in 3 simple steps and earn up to 14%
@@ -38,9 +39,9 @@ const Partnership = () => {
                 professional partners that we actively support in terms of
                 professional support, sales, and marketing.
               </p>
+              <button className="partnership_butns">See all benefits </button>
             </div>
           </div>
-          <button className="partnership_butns">See all benefits </button>
         </div>
       </div>
     </div>

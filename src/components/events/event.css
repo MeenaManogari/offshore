@@ -4,68 +4,61 @@
   box-sizing: border-box;
 }
 
-.promotion {
+.event {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   padding: 0 5rem 5rem 5rem;
 }
-.promotion-card {
+.event-card {
   display: grid;
   grid-template-columns: auto auto;
   gap: 40px;
 }
-.promotion-card h2 {
+.event-card p {
   font-size: 16px;
   color: #8d8d8d;
   padding: 0 0 5px 0;
 }
-.promotion-link h2 {
+.event-link p {
   font-size: 14px;
   padding: 0.5rem 0 0 0;
 }
-.promotion-link a {
+.event-link a {
   color: #333333;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
 }
-.promotion-link a:hover {
+.event-link a:hover {
   color: red;
 }
-.promotion_butn {
-  color: #fff;
-  font-size: 14px;
-  padding: 16px 90px;
-  background-color: #f12e36;
-  border-radius: 23px;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-#promotion-head h1 {
+
+#event-head h1 {
   font-size: 24px;
   font-weight: 700;
   padding: 2rem 0 2rem 5rem;
 }
-.promotion-card img {
+.event-card img {
   width: 100%;
 }
+#eve-learn {
+  color: red;
+}
 @media (max-width: 90rem) {
-  .promotion {
+  .event {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 48rem) {
-  .promotion {
+  .event {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (max-width: 30rem) {
-  .promotion {
+  .event {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }

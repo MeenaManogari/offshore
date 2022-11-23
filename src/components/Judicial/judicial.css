@@ -6,10 +6,9 @@
 .judicial_render {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* text-align: center; */
   justify-content: space-around;
   gap: 2rem;
-  padding: 5rem;
+  padding: 0 5rem 5rem 5rem;
 }
 
 .judicial_interior img {
@@ -20,28 +19,34 @@
   font-weight: 900;
   text-decoration: none;
   color: #333333;
+  padding: 2rem 0 2rem;
+  gap: 32px;
 }
 .link_text:hover {
   color: red;
 }
-.link_text p {
-  gap: 1.5rem;
+.link_para {
+  padding: 1rem 0;
 }
-.link_text a {
-  gap: 1.5rem;
-}
+
 .judicial_butn {
   color: #fff;
   font-size: 14px;
-  padding: 16px 60px;
+  padding: 16px 90px;
   background-color: #f12e36;
   border-radius: 23px;
   border: none;
   cursor: pointer;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
+
 #read {
   color: red;
   float: right;
   padding: 2rem 1rem 0 0;
+}
+.judicial_head h1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 2rem 0 2rem 5rem;
 }

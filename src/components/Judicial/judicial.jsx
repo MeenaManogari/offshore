@@ -54,19 +54,16 @@ const Judicial = () => {
           <div className="judicial_interior">
             {/* <img src={update.image} />
             <img src={update.img} /> */}
-            <img
-              src={update.images}
-              alt="images"
-              // width="293.33px"
-              // height="207.7px"
-            />
+            <a href={update.link}>
+              <img src={update.images} alt="" />
+            </a>
             <div>
               <a href={update.link} className="link_text">
                 {update.linktext}{" "}
               </a>
-              <p>{update.text} </p>
+              <p className="link_para">{update.text} </p>
               <a href={update.buttonlink}>
-                <button>{update.butto}</button>
+                <button className="judicialbutn">{update.butto}</button>
                 <a href={update.link} id="read">
                   Read more
                 </a>
@@ -83,8 +80,9 @@ const Judicial = () => {
         <h1>Jurisdiction Update</h1>
       </div>
       <div className="judicial_render">{renderjudicial} </div>
-      <div className="judicial_butn">
-        <button>View all</button>
+      <div className="taxing">
+        {" "}
+        <button className="promotion_butn">View all</button>
       </div>
     </React.Fragment>
   );

@@ -1,28 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider img {
+  width: 100%;
+}
 .slider {
-  padding: 100px;
   padding-top: 250px;
 }
 .slider h2 {
   color: #cc1f26;
-  font-size: 32px;
+  font-size: 28px;
   text-shadow: 2px 2px 5px rgb(97, 95, 95);
 }
 .slider p {
   color: #cc1f26;
-  font-size: 30px;
+  font-size: 26px;
 }
 .slider #opt {
   color: white;
-  font-size: 30px;
+  font-size: 26px;
 }
 .slider button {
   background-color: #f12e36;
   color: #fff;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 500;
   border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 12px;
+  padding: 10px 30px;
 }
 .slider button:hover {
   background-color: rgb(48, 47, 47);

@@ -35,7 +35,6 @@
 }
 .club-subhead h3 {
   font-size: 20px;
-
   padding: 1rem 0 0 0;
 }
 .club-butn {
@@ -56,4 +55,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 4rem 4rem 4rem 2rem;
+}
+@media (max-width: 60rem) {
+  .club-cover {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 }
