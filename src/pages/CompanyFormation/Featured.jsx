@@ -8,8 +8,8 @@ const Featuresection = () => {
   return (
     <>
       <Hero />
-      <Jurisdictions />
       <Contactform />
+      <Jurisdictions />
       <CompanyServices />
     </>
   );
