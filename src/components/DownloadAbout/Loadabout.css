@@ -1,9 +1,8 @@
 .loadapp {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-
-  height: 300px;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  height: 250px;
   padding: 20px 20px;
 }
 .apps {
@@ -71,12 +70,12 @@
 .mediaabout h2 {
   font-size: 30px;
 }
-.mobiles img {
+/* .mobiles img {
   position: absolute;
   right: 0;
   left: 1000px;
   z-index: -1;
-}
+} */
 .learn button {
   border: 1px solid #ffffff;
   width: 100%;
