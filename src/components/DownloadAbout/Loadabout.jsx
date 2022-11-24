@@ -14,7 +14,7 @@ const Appload = () => {
     <>
       <div className="loadapp">
         <div className="appbtn">
-          <div>
+          <div id="down">
             <h1>Download One IBC Mobile App now</h1>
           </div>
           <div className="apps">

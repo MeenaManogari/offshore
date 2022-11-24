@@ -1,0 +1,22 @@
+.arrange {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  gap: 10px;
+}
+.services {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+  padding: 30px;
+}
+.arrange img {
+  width: 160px;
+  height: 120px;
+}
+.service_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}

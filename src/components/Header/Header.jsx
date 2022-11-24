@@ -6,6 +6,7 @@ import notify from "../../assets/icons/notifyicon.svg";
 import search from "../../assets/icons/searchicon.svg";
 import "./Header.css";
 import "../../App.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -82,7 +83,7 @@ const Header = () => {
           </button>
 
           <div class="linkdropdown-content">
-            <a href="#">Featured</a>
+            <Link to="/features">Featured</Link>
             <a href="#">Jurisdictions</a>
             <a href="#">How To Setup</a>
             <a href="#">Fees</a>

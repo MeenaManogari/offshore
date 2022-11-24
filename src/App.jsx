@@ -2,11 +2,16 @@ import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Featuresection from "./pages/CompanyFormation/Featured";
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/Header/header";
 const App = () => {
   return (
     <>
-      <Home />
-      <Featuresection />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/features" element={<Featuresection />} />
+      </Routes>
     </>
   );
 };

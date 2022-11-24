@@ -28,9 +28,11 @@
   padding: 1rem 2rem 0 0;
 }
 .country {
+  position: relative;
   background: #e6e6e6b3;
   padding: 20px 20px 20px;
 }
+
 .taxes a {
   color: red;
 }
