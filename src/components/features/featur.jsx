@@ -24,9 +24,11 @@ import Panama from "../.././assets/images/feature/21_panama.jpg";
 import Saintkit from "../.././assets/images/feature/22_saintkit.jpg";
 import Saintvinecent from "../.././assets/images/feature/23_saintvincent.jpg";
 import UAE from "../.././assets/images/feature/24_UAE.jpg";
-import Delaware from "../.././assets/images/feature/25_saychelles.jpg";
+import Dela from "../.././assets/images/feature/25_saychelles.jpg";
 import Mauritius from "../.././assets/images/feature/26_mauritius.jpg";
 import Delawar from "../.././assets/images/feature/27_delaware.jpg";
+import Shore from "../.././assets/images/feature/offshore-bg-how-it-work.jpg";
+import Fee from "../.././assets/images/feature/offshore-fee.png";
 
 function Jurisdictions() {
   const asiapasific = [
@@ -144,7 +146,7 @@ function Jurisdictions() {
       image: Bvi,
       linktext: "BVI offshore company formation",
       text: "The economy prospered in the Caribbean",
-      text: "Perfect place for managing yachts and ships",
+      texts: "Perfect place for managing yachts and ships",
       link: "/",
     },
     {
@@ -166,7 +168,7 @@ function Jurisdictions() {
       linktext: "Anguilla company registration",
       text: "Stable political system",
       texts: "Flexible corporate management structure",
-      linktext: "/",
+      link: "/",
     },
     {
       image: Bahamas,
@@ -182,6 +184,70 @@ function Jurisdictions() {
       texts: "The fastest-growing economy in Central America",
       link: "/",
     },
+    {
+      image: Saintkit,
+      linktext: "Nevis offshore company formation",
+      text: "Tax-free, no exchange control",
+      texts: "A wide network of international banks",
+      link: "/",
+    },
+    {
+      image: Saintvinecent,
+      linktext: "St Vincent offshore company formation",
+      text: "Exemption from income tax on profits",
+      texts: "Leading position for foreign investment",
+      link: "/",
+    },
+  ];
+  const east = [
+    {
+      image: UAE,
+      linktext: "Offshore company formation in Dubai, RAK, UAE",
+      text: "One of the world's largest logistics hubs",
+      texts: "Leading host for global foreign investment",
+      link: "/",
+    },
+  ];
+  const africa = [
+    {
+      image: Dela,
+      linktext: "Seychelles offshore company formation",
+      text: "Variety incentive tax policies",
+      texts: "Secured asset protection",
+      link: "/",
+    },
+    {
+      image: Mauritius,
+      linktext: "Mauritius offshore company formation",
+      text: "One of the fastest-growing economy",
+      texts: "Free and open business environment",
+      link: "/",
+    },
+  ];
+  const america = [
+    {
+      image: Delawar,
+      linktext: "USA Offshore Company Formation",
+      text: "Asset protection from a foreign corporation.",
+      texts: "Better banking infrastructure.",
+      link: "/",
+    },
+    {
+      image: Delawar,
+      linktext: "Delaware offshore company formation",
+      text: "The most flexible business laws",
+      texts: "No corporate income tax outside Delaware",
+      link: "/",
+    },
+  ];
+  const work = [
+    {
+      image: Shore,
+      text: "How it works?",
+      textpara:
+        "All-everything needs to start your business is here. It's simple, fast and effective. Our dedicated experts support you all the process so you feel free and comfortable to start.",
+      texts: "Set up at Offshore Company Corp in just 4 easy steps.",
+    },
   ];
   const renderjuris = asiapasific.map((update) => {
     return (
@@ -194,8 +260,13 @@ function Jurisdictions() {
         }}
       >
         <div className="appp">
-          <h2>{update.linktext}</h2>
+          <a href={update.link}>
+            <h2>{update.linktext}</h2>
+          </a>
           <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          {" "}
           <p>{update.texts} </p>
         </div>
       </div>
@@ -214,6 +285,9 @@ function Jurisdictions() {
         <div className="appp">
           <h2>{update.linktext}</h2>
           <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          {" "}
           <p>{update.texts} </p>
         </div>
       </div>
@@ -232,13 +306,109 @@ function Jurisdictions() {
         <div className="appp">
           <h2>{update.linktext}</h2>
           <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          {" "}
           <p>{update.texts} </p>
+        </div>
+      </div>
+    );
+  });
+  const rendermiddleast = east.map((update) => {
+    return (
+      <div
+        className="benefit_card"
+        style={{
+          background: `url(${update.image})`,
+          backgroundSize: "cover",
+          backgroundImage: "Transparent",
+        }}
+      >
+        <div className="appp">
+          <h2>{update.linktext}</h2>
+          <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          {" "}
+          <p>{update.texts} </p>
+        </div>
+      </div>
+    );
+  });
+  const renderafri = africa.map((update) => {
+    return (
+      <div
+        className="benefit_card"
+        style={{
+          background: `url(${update.image})`,
+          backgroundSize: "cover",
+          backgroundImage: "Transparent",
+        }}
+      >
+        <div className="appp">
+          <h2>{update.linktext}</h2>
+          <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          {" "}
+          <p>{update.texts} </p>
+        </div>
+      </div>
+    );
+  });
+  const renderameri = america.map((update) => {
+    return (
+      <div
+        className="benefit_card"
+        style={{
+          background: `url(${update.image})`,
+          backgroundSize: "cover",
+          backgroundImage: "Transparent",
+        }}
+      >
+        <div className="appp">
+          <h2>{update.linktext}</h2>
+          <p>{update.text}</p>
+        </div>
+        <div className="formationapp">
+          <p>{update.texts} </p>
+        </div>
+      </div>
+    );
+  });
+  const renderhowork = work.map((offshorework) => {
+    return (
+      <div
+        className="how_work"
+        style={{
+          background: `url(${offshorework.image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {" "}
+        <div className="howork_interior">
+          <h1>{offshorework.text}</h1>
+          <div className="howork_para">
+            <p>{offshorework.textpara}</p>
+          </div>
+          <p>{offshorework.texts}</p>
+          <button className="howork_butn">View more</button>
         </div>
       </div>
     );
   });
   return (
     <React.Fragment>
+      <div className="alljuris_head">
+        <h1>All Jurisdictions</h1>{" "}
+        <p>
+          Whether you are doing business in Europe, Asia, Africa, the Middle
+          East, the Americas or elsewhere, Offshore Company Corp will set up the
+          best trading or holding structure for your business in line with local
+          laws and regulations.
+        </p>
+      </div>
       <div className="formation-head">
         <h1>Asia pasific</h1>
         <div className="benefit_section">{renderjuris}</div>
@@ -250,6 +420,46 @@ function Jurisdictions() {
       <div className="formation-head">
         <h1>Caribbean</h1>
         <div className="benefit_section">{rendercarib}</div>
+      </div>
+      <div className="formation-head">
+        <h1>Middle East</h1>
+        <div className="benefit_section">{rendermiddleast}</div>
+      </div>
+      <div className="formation-head">
+        <h1>Africa</h1>
+        <div className="benefit_section">{renderafri}</div>
+      </div>
+      <div className="formation-head">
+        <h1>America</h1>
+        <div className="benefit_section">{renderameri}</div>
+      </div>
+      <div className="renderwork">{renderhowork} </div>
+      <div className="fees">
+        <div className="offshore_fee">
+          <h2>Company Formation Services Fees</h2>
+        </div>
+        <div className="offshorefee_interior">
+          <div className="offshore_structure">
+            <h1>From</h1>
+            <h2>US$ 599</h2>
+            <img src={Fee} alt="" />
+          </div>
+          <div className="offshore_structure">
+            <ul>
+              <li>100% successful rate</li>
+              <li>Fast, easy & highest confidential via secured systems</li>
+              <li>Dedicated support (24/7)</li>
+              <li>Just Order, We Do All For You</li>{" "}
+              <li>Offer set up over 25 jurisdictions</li>
+            </ul>
+          </div>
+          <div className="offshore_structure">
+            {" "}
+            <a href="/order-services?action=step1">
+              <button>Incorporate Company Now</button>
+            </a>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

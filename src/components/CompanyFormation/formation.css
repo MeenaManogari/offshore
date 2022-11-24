@@ -25,11 +25,19 @@
   font-size: 12px;
   padding: 0.3rem 0 0 1.5rem;
 }
+.appp a {
+  text-decoration: none;
+  color: #fff;
+}
+.formationapp p {
+  font-size: 12px;
+  padding: 0.3rem 0 2rem 1.5rem;
+}
 .benefit_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  padding: 0 5rem 5rem 5rem;
+  padding: 0 7rem 4rem 7rem;
   gap: 2rem;
 }
 .benefit_section img {
@@ -59,7 +67,7 @@
   font-size: 24px;
   font-weight: 700;
   width: 100%;
-  padding: 2rem 0 2rem 5rem;
+  padding: 2rem 0 2rem 7rem;
 }
 @media (max-width: 90rem) {
   .benefit_section {
