@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Featuresection from "./pages/CompanyFormation/Featured";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Appload from "./components/DownloadAbout/Loadabout";
 import Companysetup from "./pages/CompanyFormation/companysetup";
