@@ -1,0 +1,45 @@
+.global p {
+  color: white;
+  font-size: 26px;
+}
+.global {
+  background-color: rgba(241, 46, 54, 0.8);
+  width: 800px;
+  height: auto;
+  padding: 50px;
+}
+.category_links {
+  width: 100%;
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.bglinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+.bglinks a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+  min-height: 80px;
+  width: 30%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 17px 0;
+  text-decoration: none;
+}
+.bglinks a:hover {
+  background-color: #f12e36;
+  color: white;
+}
