@@ -34,10 +34,29 @@
   font-size: 16px;
   font-weight: 500;
   border: none;
-  border-radius: 12px;
-  padding: 10px 30px;
-  width: 20%;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 200px;
 }
 .herobg button:hover {
   background-color: rgb(48, 47, 47);
+}
+.striplinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.striplinks a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+  border-bottom: 4px solid white;
+}
+.striplinks a:hover {
+  color: #f12e36;
+  background-color: lightgray;
+  border-bottom: 4px solid #f12e36;
 }

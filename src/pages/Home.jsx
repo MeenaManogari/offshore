@@ -1,8 +1,7 @@
 import React from "react";
 
 import Hero from "../components/HeroSlide/HeroSlide";
-import Appload from "../components/DownloadAbout/Loadabout";
-import Footer from "../components/Footer/Footer";
+
 import Account from "../components/AccoutOpeningConsult/account";
 import Formation from "../components/CompanyFormation/formation";
 import Tax from "../components/tax/tax";
@@ -27,8 +26,6 @@ const Home = () => {
       <Judicial />
       <Article />
       <Events />
-      <Appload />
-      <Footer />
     </>
   );
 };

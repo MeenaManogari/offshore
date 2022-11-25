@@ -85,7 +85,7 @@ const Header = () => {
           <div class="linkdropdown-content">
             <Link to="/features">Featured</Link>
             <a href="#">Jurisdictions</a>
-            <a href="#">How To Setup</a>
+            <Link to="/howtosetup">How To Setup</Link>
             <a href="#">Fees</a>
             <a href="#">Nominee</a>
             <a href="#">Change Agent</a>

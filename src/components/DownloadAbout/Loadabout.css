@@ -92,6 +92,7 @@
 .aboutus {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 30px 24px;
@@ -113,5 +114,10 @@
   .aboutus {
     display: flex;
     flex-wrap: wrap;
+  }
+  .loadapp {
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
   }
 }
