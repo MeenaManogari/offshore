@@ -2,7 +2,7 @@ import React from "react";
 import "./account.css";
 import bank from "../../assets/icons/bank_icon.svg";
 import Bank from "../../assets/icons/Bankinng.svg";
-import Remote from "../../assets/icons/computer.svg";
+import Remote from "../../assets/icons/Computer.svg";
 import Personal from "../../assets/icons/visit.svg";
 import background from "../../assets/images/home/iconsbg.png";
 
