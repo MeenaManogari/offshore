@@ -4,10 +4,39 @@ import call from "../../assets/icons/phoneicon.svg";
 import user from "../../assets/icons/usericon.svg";
 import notify from "../../assets/icons/notifyicon.svg";
 import search from "../../assets/icons/searchicon.svg";
+import ham from "../../assets/icons/icon-bar-ham.png";
+import cancel from "../../assets/icons/icon-bar-cancel.png";
 import "./Header.css";
 import "../../App.css";
 import { Link } from "react-router-dom";
 const Header = () => {
+  const [sidebarIsOn, setSidebarState] = React.useState(false);
+
+  const hamburger = (
+    <img
+      src={ham}
+      className="hamburger"
+      onClick={(e) => {
+        e.preventDefault();
+        setSidebarState(true);
+      }}
+    />
+  );
+
+  const sidebar = (
+    <div className="sidebar">
+      <div className="sidebar_menu">
+        <h4>Menu</h4>
+        <img
+          src={cancel}
+          onClick={(e) => {
+            e.preventDefault();
+            setSidebarState(false);
+          }}
+        />
+      </div>
+    </div>
+  );
   return (
     <>
       <div className="navbar">
@@ -84,7 +113,7 @@ const Header = () => {
 
           <div class="linkdropdown-content">
             <Link to="/features">Featured</Link>
-            <a href="#">Jurisdictions</a>
+            <Link to="/jurisdiction">Jurisdictions</Link>
             <Link to="/howtosetup">How To Setup</Link>
             <a href="#">Fees</a>
             <a href="#">Nominee</a>
@@ -128,14 +157,14 @@ const Header = () => {
             <a href="#">How it works</a>
           </div>
         </div>
-        <button>
+        <button id="ibcclub">
           One IBC Club<sup>TM</sup>Digital App
         </button>
         <div className="linkdropdown">
           <button className="linkdropbtn">More</button>
           <div class="linkdropdown-content">
             <a href="#">Promotion</a>
-            <a href="#">AboutUs</a>
+            <Link to="/aboutus">AboutUs</Link>
             <a href="#">Partnership</a>
             <a href="#">ContactUs</a>
             <a href="#">Insights</a>
@@ -143,6 +172,8 @@ const Header = () => {
             <a href="#">Career</a>
           </div>
         </div>
+        {hamburger}
+        {sidebarIsOn && sidebar}
         <div className="search">
           <a>
             <img src={search} />

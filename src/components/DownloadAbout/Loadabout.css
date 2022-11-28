@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   height: 250px;
   padding: 20px 20px;
+  background-color: white;
 }
 .apps {
   display: flex;
@@ -41,6 +42,8 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
+
+  background-color: white;
 }
 #views {
   color: #fff;
@@ -96,6 +99,9 @@
   justify-content: space-around;
   align-items: center;
   padding: 30px 24px;
+
+  background-color: white;
+  width: 100%;
 }
 .contents {
   display: flex;

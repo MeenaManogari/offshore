@@ -1,0 +1,48 @@
+.country-setup {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+.country-setup:hover {
+  color: red;
+}
+.businessplan ul li {
+  list-style-type: disc;
+}
+.businessplan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px 100px 30px 100px;
+}
+
+/* .business_plan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 0 40px 0;
+}
+.country_setupone ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: disc;
+}
+.country_setuptwo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: disc;
+}
+.country_setupone a:hover {
+  color: #cc1f26;
+}
+.country_setuptwo a:hover {
+  color: #cc1f26;
+}
+.country_setupone a,
+.country_setuptwo a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+} */

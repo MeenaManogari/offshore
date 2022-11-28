@@ -7,6 +7,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Appload from "./components/DownloadAbout/Loadabout";
 import Companysetup from "./pages/CompanyFormation/companysetup";
+import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
+import Aboutpage from "./pages/More/Aboutus";
 const App = () => {
   return (
     <>
@@ -15,6 +17,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Featuresection />} />
         <Route path="/howtosetup" element={<Companysetup />} />
+        <Route path="/jurisdiction" element={<Companyjuris />} />
+        <Route path="/aboutus" element={<Aboutpage />} />
       </Routes>
       <Appload />
       <Footer />
