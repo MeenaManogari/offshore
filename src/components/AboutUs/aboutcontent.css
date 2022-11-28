@@ -1,0 +1,51 @@
+.aboutinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 64px;
+}
+.aboutinfo h1 {
+  font-size: 38px;
+}
+.aboutinfo h2 {
+  font-size: 32px;
+}
+.aboutinfo p {
+  font-size: 22px;
+}
+.iconhead {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.values {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.values p,
+ul li {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.values ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.values ul li {
+  list-style-type: square;
+}
+.aboutvalues {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.aboutushead {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 64px;
+}

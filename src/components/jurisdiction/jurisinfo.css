@@ -1,0 +1,7 @@
+.global h1 {
+  font-size: 36px;
+  color: white;
+}
+.bglinks a {
+  font-size: 22px;
+}
