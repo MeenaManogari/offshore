@@ -35,7 +35,7 @@
   transition: opacity 0.3s ease-in-out, height 0.3s 0.3s ease-in-out;
   color: #333;
 }
-
+ 
 .animated {
   opacity: 1;
   transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;

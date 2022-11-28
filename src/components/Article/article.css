@@ -1,0 +1,16 @@
+.articlerender {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px 60px;
+  text-decoration: none;
+}
+.article_card {
+  display: flex;
+  gap: 1.5rem;
+}
+.article_card img {
+  width: 100%;
+}
+.article_head {
+  padding: 0 0 0 5rem;
+}
