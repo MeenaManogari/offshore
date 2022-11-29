@@ -5,6 +5,7 @@ import Category from "../../components/features/categories";
 import Hero from "../../components/features/FeaturesHero";
 import Single from "../.././components/Faq/single";
 import OneibcClub from "../../components/oneibcClub/oneibcClub";
+import Judicialupdate from "../../components/Judicialupdate/judicialupdate";
 
 const Featuresection = () => {
   return (
@@ -15,6 +16,7 @@ const Featuresection = () => {
       <Jurisdictions />
       <Single />
       <OneibcClub />
+      <Judicialupdate />
     </>
   );
 };

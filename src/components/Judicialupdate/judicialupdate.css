@@ -1,0 +1,7 @@
+.judicial_render {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.judiupdate_interrior img {
+  width: 100%;
+}
