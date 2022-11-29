@@ -1,4 +1,5 @@
 import React from "react";
+import Judicialupdate from "../../components/Judicialupdate/judicialupdate";
 import Club from "../../components/oneibc/oneibc";
 import Ibchero from "../../components/oneibcClub/herooneibc";
 import OneibcClub from "../../components/oneibcClub/oneibcClub";
@@ -12,6 +13,7 @@ const Ibcbenefits = () => {
       <Promote />
       <Club />
       <Partnership />
+      <Judicialupdate />
     </>
   );
 };
