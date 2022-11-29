@@ -1,0 +1,105 @@
+.club_render {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.club_text {
+  font-size: 22px;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 0;
+  line-height: 22px;
+  margin-top: -55px;
+}
+table {
+  border: 1px solid #d7d8d6;
+}
+td {
+  border: 1px solid #d7d8d6;
+  width: 100%;
+}
+.tires-content {
+  padding: 20px 60px 0 60px;
+}
+.oneibc_club img {
+  width: 100%;
+}
+.ibcclub_head p {
+  padding: 10px 0 10px 0;
+}
+.ibcclub_subhead p {
+  padding: 10px 0 10px 0;
+}
+.ibcclub_para p {
+  padding: 25px 0 15px 0;
+  font-size: 15px;
+}
+.earningpoint_image {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.earningpoint_image h2 {
+  color: #f12e36;
+}
+.setupbutn h3 {
+  background: #f12e36;
+  color: white;
+  padding: 10px;
+}
+.earningpoints {
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  padding: 15px 50px;
+  height: auto;
+  width: 100%;
+}
+.howitwork_full {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.howitwork {
+  padding: 20px 60px 0 60px;
+}
+.span a {
+  text-decoration: none;
+  color: #f12e36;
+}
+.howitwor_head h1 {
+  padding: 4rem 0 0.5 0;
+}
+.howitwor_head p {
+  padding: 1rem 0 1.5rem 0;
+}
+.sign-butn {
+  text-align: center;
+}
+.sign-butn button {
+  color: #fff;
+  padding: 16px 75px;
+  border-color: #f12e36;
+  background: #f12e36;
+  border-radius: 23px;
+  cursor: pointer;
+  border: none;
+}
+.sign-butn button:hover {
+  background-color: #2e2e2e;
+}
+.work_term p {
+  padding: 1.5rem 0 2rem 0;
+}
+
+@media (max-width: 900px) {
+  .club_render {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .howitwork_full {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}

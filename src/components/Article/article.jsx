@@ -5,27 +5,27 @@ import international from "../../assets/images/home/international-art.jpg";
 import partner from "../../assets/images/home/partnerships_art.jpg";
 
 function Article() {
-  const happy = [
-    {
-      image: newyear,
-      linktext: "Happy lunar new yaer 2022",
-      text: "Closing time: From Saturday (January 29, 2022) To the end of Sunday (February 6, 2022). Reopening: Monday (February 7, 2022).",
-      link: "/en/insight/articles/happy-lunar-new-year-2022",
-    },
-  ];
-  const renderhap = happy.map((appy) => {
-    return (
-      <div>
-        <div>
-          <a herf={appy.link}>
-            <img src={appy.image} />
-          </a>
-          <p>{appy.linktext}</p>
-          <h4>{appy.text}</h4>
-        </div>
-      </div>
-    );
-  });
+  // const happy = [
+  //   {
+  //     image: newyear,
+  //     linktext: "Happy lunar new yaer 2022",
+  //     text: "Closing time: From Saturday (January 29, 2022) To the end of Sunday (February 6, 2022). Reopening: Monday (February 7, 2022).",
+  //     link: "/en/insight/articles/happy-lunar-new-year-2022",
+  //   },
+  // ];
+  // const renderhap = happy.map((appy) => {
+  //   return (
+  //     <div>
+  //       <div>
+  //         <a herf={appy.link}>
+  //           <img src={appy.image} />
+  //         </a>
+  //         <p>{appy.linktext}</p>
+  //         <h4>{appy.text}</h4>
+  //       </div>
+  //     </div>
+  //   );
+  // });
   const article = [
     {
       images: international,
@@ -88,7 +88,7 @@ function Article() {
       <div className="article_head">
         <h2>Articles</h2>
       </div>
-      <div className="appyrender">{renderhap} </div>
+      {/* <div className="appyrender">{renderhap} </div> */}
       <div className="articlerender">{renderarticles} </div>
     </React.Fragment>
   );
