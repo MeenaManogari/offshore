@@ -9,6 +9,7 @@ import Appload from "./components/DownloadAbout/Loadabout";
 import Companysetup from "./pages/CompanyFormation/companysetup";
 import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
 import Aboutpage from "./pages/More/Aboutus";
+import Ibcbenefits from "./pages/OneIBCClubs/member";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/howtosetup" element={<Companysetup />} />
         <Route path="/jurisdiction" element={<Companyjuris />} />
         <Route path="/aboutus" element={<Aboutpage />} />
+        <Route path="/member" element={<Ibcbenefits />} />
       </Routes>
       <Appload />
       <Footer />

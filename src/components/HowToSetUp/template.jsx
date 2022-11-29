@@ -43,7 +43,7 @@ const Template = () => {
         "One of the most renowned financial centers in Southeast Asia",
         "Complete exemption from income tax on profits for holding companies",
       ],
-      herobutton: "",
+      herobutton: "Learn More",
     },
   ];
 

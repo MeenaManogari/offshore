@@ -152,9 +152,9 @@ const Header = () => {
             One IBC Club<sup>TM</sup>
           </button>
           <div class="linkdropdown-content">
-            <a href="#">Member Benefits</a>
-            <a href="#">Tiers and Benefits</a>
-            <a href="#">How it works</a>
+            <Link to="/member">Member Benefits</Link>
+            <Link to="/member">Tiers and Benefits</Link>
+            <Link to="/member">How it works</Link>
           </div>
         </div>
         <button id="ibcclub">
