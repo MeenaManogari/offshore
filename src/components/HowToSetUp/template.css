@@ -1,0 +1,59 @@
+.herosetup img {
+  width: 100%;
+}
+.herosetup {
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.herosetup h1 {
+  color: white;
+  font-size: 48px;
+}
+.herosetup p {
+  color: white;
+  font-size: 28px;
+}
+.herosetup button {
+  background-color: #f12e36;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 30px;
+}
+.labuan_cards {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  padding: 20px 25px;
+  height: auto;
+  width: 100%;
+}
+.card_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 64px;
+  gap: 50px;
+}
+.stepcard {
+  padding: 4px;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  background: #f12e36;
+  border-radius: 20px;
+}
