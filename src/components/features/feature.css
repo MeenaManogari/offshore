@@ -11,6 +11,9 @@
 .renderwork img {
   width: 100%;
 }
+.renderwork {
+  margin-top: 5rem;
+}
 .how_work {
   color: #fff;
   padding: 0 5rem 5rem;

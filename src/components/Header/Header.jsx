@@ -81,7 +81,28 @@ const Header = () => {
           </div>
 
           <div className="drop">
-            <button className="btn_visible">Account Opening Consultancy</button>
+            <button className="btn_visible" onClick={toggleState}>
+              Account Opening Consultancy
+            </button>
+            <div
+              className={
+                toggle ? "accordion-toogle animated " : "accordion-toggle"
+              }
+              style={{ height: toggle ? `${heightEl}` : "0px" }}
+              ref={refHeight}
+            >
+              <div
+                className="drop_links"
+                aria-hidden={toggle ? "true" : "false"}
+              >
+                <a href="#">Featured</a>
+                <Link to="/account">How to OpenAccount</Link>
+                <a href="#">Fees</a>
+                <a href="#">Account Opening Requirements</a>
+                <a href="#">FAQs</a>
+                <a href="#">DownloadForm</a>
+              </div>
+            </div>
           </div>
 
           <div className="drop">
@@ -198,7 +219,7 @@ const Header = () => {
           <button className="linkdropbtn">Account Opening Consultancy</button>
           <div class="linkdropdown-content">
             <a href="#">Featured</a>
-            <a href="#">How to OpenAccount</a>
+            <Link to="/account">How to OpenAccount</Link>
             <a href="#">Fees</a>
             <a href="#">Account Opening Requirements</a>
             <a href="#">FAQs</a>

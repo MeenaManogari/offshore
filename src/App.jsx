@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Requirehero />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Featuresection />} />
