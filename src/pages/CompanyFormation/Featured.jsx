@@ -7,7 +7,6 @@ import Single from "../.././components/Faq/single";
 import Judicialupdate from "../../components/Judicialupdate/judicialupdate";
 import Partnership from "../../components/partnership/Partnership";
 import Club from "../../components/oneibc/oneibc";
-import Accountopensection from "../Openbankaccount/account";
 
 const Featuresection = () => {
   return (
@@ -20,7 +19,6 @@ const Featuresection = () => {
       <Club />
       <Partnership />
       <Judicialupdate />
-      <Accountopensection />
     </>
   );
 };
