@@ -1,7 +1,50 @@
-.judicial_render {
+.judicialupdate_render {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
 .judiupdate_interrior img {
   width: 100%;
+  gap: 16px;
+}
+
+.judicialupdare-paragaraph a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 900;
+}
+.judicialupdare-paragaraph a:hover {
+  color: #f12e36;
+}
+.judicialupdate_head button {
+  font-weight: 700;
+  font-size: 16px;
+  background: #f12e36;
+  border-radius: 23px;
+  padding: 16px 90px;
+  border: none;
+  outline: 0;
+  color: white;
+}
+.judicialupdate_head button:hover {
+  background-color: #2e2e2e;
+}
+.judicialupdate_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.judicialupdate_head h1 {
+  font-size: 24px;
+}
+.judicialupdate_complete {
+  padding: 25px 100px 50px 100px;
+}
+@media (max-width: 900px) {
+  .judicialupdate_render {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

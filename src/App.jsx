@@ -10,7 +10,7 @@ import Companysetup from "./pages/CompanyFormation/companysetup";
 import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
 import Aboutpage from "./pages/More/Aboutus";
 import Ibcbenefits from "./pages/OneIBCClubs/member";
-import Requirehero from "./components/AccoutOpeningConsult/requirehero";
+import Accountopensection from "./pages/Openbankaccount/account";
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/jurisdiction" element={<Companyjuris />} />
         <Route path="/aboutus" element={<Aboutpage />} />
         <Route path="/member" element={<Ibcbenefits />} />
+        <Route path="/account" element={<Accountopensection />} />
       </Routes>
       <Appload />
       <Footer />

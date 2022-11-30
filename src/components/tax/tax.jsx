@@ -54,25 +54,27 @@ const Tax = () => {
   });
   return (
     <React.Fragment>
-      <div id="head">
-        <h1>Tax - Accounting & Auditing</h1>
-      </div>
+      <div className="taxaudicting">
+        <div id="head">
+          <h1>Tax - Accounting & Auditing</h1>
+        </div>
 
-      <div className="accounting">{renderaccount}</div>
-      <div className="note">
-        <p>Note:</p>
-        <p>
-          Accounting & audit just apply for jurisdictions where the government
-          requires as Hong Kong, Singapore, UK, Switzerland, Cyprus, etc
-        </p>
-        <p>
-          However, jurisdictions as BVI, Cayman, Mauritius, Samoa, Belize are
-          not required
-        </p>
-      </div>
-      <div className="taxing">
-        {" "}
-        <button className="account_butn">See more details</button>
+        <div className="accounting">{renderaccount}</div>
+        <div className="note">
+          <p>Note:</p>
+          <p>
+            Accounting & audit just apply for jurisdictions where the government
+            requires as Hong Kong, Singapore, UK, Switzerland, Cyprus, etc
+          </p>
+          <p>
+            However, jurisdictions as BVI, Cayman, Mauritius, Samoa, Belize are
+            not required
+          </p>
+        </div>
+        <div className="taxing">
+          {" "}
+          <button className="account_butn">See more details</button>
+        </div>
       </div>
     </React.Fragment>
   );

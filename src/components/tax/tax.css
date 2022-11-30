@@ -7,7 +7,6 @@
 .accounting {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 5rem 5rem 5rem;
 }
 .account_topimages img {
   width: 100%;
@@ -19,7 +18,7 @@
 }
 .taxes p {
   font-size: 14px;
-  padding: 1.5rem 0 0 1rem;
+  padding: 1.5rem 0 0 0;
   color: #4d4d4db3;
   /* text-align: center; */
 }
@@ -39,19 +38,17 @@
 }
 .taxing {
   text-align: center;
-  padding: 2rem 02rem 0;
 }
 
 .note p {
   padding: 10px;
   width: 100%;
-  padding: 1rem 0 0 3rem;
+  padding: 1rem 0 0 0;
   color: #8d8d8d;
 }
 .account_card {
   align-content: center;
   justify-content: center;
-  padding: 3rem 0 0 0;
 }
 .account_butn {
   color: #fff;
@@ -62,6 +59,10 @@
   border: none;
   cursor: pointer;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.account_butn:hover {
+  background-color: #2e2e2e;
 }
 .country a {
   text-decoration: none;
@@ -70,14 +71,16 @@
 #head h1 {
   font-size: 24px;
   font-weight: 700;
-  padding: 2rem 0 0 5rem;
+  padding: 0 0 1.5rem 0;
+}
+.taxaudicting {
+  padding: 25px 100px 0 100px;
 }
 
 @media (max-width: 90rem) {
   .accounting {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 5rem 5rem 5rem;
     gap: 2rem;
   }
 }
@@ -89,7 +92,7 @@
     gap: 1rem;
   }
   .taxes {
-    height: 45vh;
+    height: 50vh;
   }
 }
 @media (max-width: 30rem) {
