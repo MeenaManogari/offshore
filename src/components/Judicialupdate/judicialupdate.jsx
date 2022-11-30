@@ -31,15 +31,15 @@ const Judicialupdate = () => {
               {" "}
               <img src={judi.image} alt="" />
             </a>
-            <div>
+            <div className="judicialupdare-paragaraph">
               {" "}
               <a href={judi.link}>
                 <p>{judi.linktext}</p>
               </a>
-              <a href={judi.link} id="read">
-                Read more
-              </a>
             </div>
+            <a href={judi.link} id="read">
+              Read more
+            </a>
           </div>
         </div>
       </div>
@@ -47,7 +47,13 @@ const Judicialupdate = () => {
   });
   return (
     <React.Fragment>
-      <div className="judicial_render">{renderjudicial}</div>
+      <div className="judicialupdate_complete">
+        <div className="judicialupdate_head">
+          <h1>Jurisdiction Update</h1>
+          <button>View more </button>
+        </div>
+        <div className="judicialupdate_render">{renderjudicial}</div>
+      </div>
     </React.Fragment>
   );
 };

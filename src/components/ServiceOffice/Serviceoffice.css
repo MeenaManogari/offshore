@@ -5,61 +5,40 @@
 }
 .Service_Office_Container {
   background: #f1f0f0;
-  padding: 30px 30px;
-  text-align: center;
+  padding: 50px 100px 0 100px;
 }
 .office h4 {
   color: #2e2e2e;
   font-size: 24px;
-  padding: 0 0 0 6rem;
-  margin: 0 0 10px;
-  text-align: left;
+  padding: 0 0 1rem 0;
 }
 .subhead p {
   font-size: 14px;
-  text-align: left;
-  padding: 0 0 0 6rem;
+
+  padding: 0 0 1rem 0;
   color: #8d8d8d;
 }
 .parts {
   display: grid;
   grid-template-columns: auto auto;
-  width: 100%;
   gap: 25px;
-  padding: 60px 190px;
-  text-align: left;
 }
 .world {
+  background: #fff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  padding: 30px 50px;
+  height: auto;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto;
-  background: #fff;
-  color: #8d8d8d;
-  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
-  border-radius: 3px;
-  padding: 20px;
-  width: 100%;
 }
 .world h3 {
   font-size: 14px;
   padding: 15px 0 0 30px;
 }
-.caller {
-  display: grid;
-  grid-template-columns: auto auto;
-  background: #fff;
-  color: #8d8d8d;
-  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
-  border-radius: 3px;
-}
-.caller h3 {
-  font-size: 14px;
-  padding: 15px 0 0 30px;
-}
-.caller {
-  padding: 25px 0 0 30px;
-}
 
-.serviceButton {
+.serviceButton button {
   color: #fff;
   font-size: 14px;
   padding: 16px 60px;
