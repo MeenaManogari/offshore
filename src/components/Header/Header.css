@@ -180,6 +180,7 @@ span {
   z-index: 1;
   background-color: white;
   padding: 16px;
+  display: none;
 }
 
 .sidebar_menu {
@@ -189,6 +190,62 @@ span {
 .sidebar_menu img {
   cursor: pointer;
 }
+.sidebar_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar_content button {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  text-align: left;
+  padding: 20px;
+}
+.btn_visible {
+  width: 100%;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 30px;
+  border: none;
+}
+
+.btn_visible img {
+  transform: rotate(-90deg);
+  transition: transform 0.2s ease-in-out;
+}
+.btn_visible img.active {
+  transform: rotate(0deg);
+}
+
+.accordion-toggle {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, height 0.3s 0.3s ease-in-out;
+  color: #333;
+}
+
+.animated {
+  opacity: 1;
+  transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+}
+
+.drop_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.drop_links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
 @media (max-width: 990px) {
   .hamburger {
     display: block;
@@ -197,5 +254,8 @@ span {
   .navlink > .linkdropdown,
   #ibcclub {
     display: none;
+  }
+  .sidebar {
+    display: block;
   }
 }

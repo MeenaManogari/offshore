@@ -10,12 +10,13 @@ import Companysetup from "./pages/CompanyFormation/companysetup";
 import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
 import Aboutpage from "./pages/More/Aboutus";
 import Ibcbenefits from "./pages/OneIBCClubs/member";
+import Requirehero from "./components/AccoutOpeningConsult/requirehero";
 
 const App = () => {
   return (
     <>
       <Header />
-
+      <Requirehero />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Featuresection />} />
