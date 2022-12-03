@@ -59,6 +59,9 @@
   background-color: white;
   color: #f12e36;
 }
+#down {
+  color: #f12e36;
+}
 .mediaabout {
   display: flex;
   flex-direction: column;

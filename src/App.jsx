@@ -11,6 +11,7 @@ import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
 import Aboutpage from "./pages/More/Aboutus";
 import Ibcbenefits from "./pages/OneIBCClubs/member";
 import Accountopensection from "./pages/Openbankaccount/account";
+import Agentchange from "./pages/CompanyFormation/changeagent";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/aboutus" element={<Aboutpage />} />
         <Route path="/member" element={<Ibcbenefits />} />
         <Route path="/account" element={<Accountopensection />} />
+        <Route path="/changeagent" element={<Agentchange />} />
       </Routes>
       <Appload />
       <Footer />

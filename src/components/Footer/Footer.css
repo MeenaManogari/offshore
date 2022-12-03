@@ -8,12 +8,15 @@
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
 }
 .dropdown {
   display: flex;
-  gap: 310px;
-  padding-left: 110px;
+  flex-direction: row;
+  padding-left: 140px;
+  gap: 240px;
 }
 .footbtn {
   border: none;
@@ -78,26 +81,7 @@ option {
 .countries {
   padding: 20px 64px;
 }
-/* .listone,
-.listtwo,
-.listthree,
-.listfour,
-.listfive,
-.listsix {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.listone a,
-.listtwo a,
-.listthree a,
-.listfour a,
-.listfive a,
-.listsix a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-} */
+
 .hline {
   width: 100%;
   border: 0.5px solid lightgray;
@@ -120,6 +104,7 @@ option {
   display: flex;
   gap: 50px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pageend {
   display: flex;
@@ -166,28 +151,21 @@ option {
   gap: 20px;
   padding: 10px;
 }
-
+.flaglinks img {
+  height: 20px;
+  width: 30px;
+}
 .listone {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+
   padding: 10px;
 }
 .flaglinks {
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-@media (max-width: 768px) {
-  .listone {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 10px;
-  }
-}
-@media (max-width: 468px) {
-  .listone {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
 }

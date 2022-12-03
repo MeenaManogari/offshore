@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import logo from "../../assets/images/home/dewall_logo.png";
 import call from "../../assets/icons/phoneicon.svg";
 import user from "../../assets/icons/usericon.svg";
@@ -6,7 +6,6 @@ import notify from "../../assets/icons/notifyicon.svg";
 import search from "../../assets/icons/searchicon.svg";
 import ham from "../../assets/icons/icon-bar-ham.png";
 import cancel from "../../assets/icons/icon-bar-cancel.png";
-//import Down from "../../assets/icons/feature_icons/chevron-down.svg";
 import "./Header.css";
 import "../../App.css";
 import { Link } from "react-router-dom";
@@ -15,6 +14,8 @@ import Servicedrop from "../Dropdown/ServiecsDropdown";
 import Ibcdrop from "../Dropdown/OneIBCdropdown";
 import Moredrop from "../Dropdown/MoreDropdown";
 import Companydrop from "../Dropdown/CompanyDropdown";
+import indiaflag from "../../assets/icons/indiaflag.png";
+import usflag from "../../assets/icons/usicon.png";
 const Header = () => {
   const [sidebarIsOn, setSidebarState] = React.useState(false);
 
@@ -42,19 +43,8 @@ const Header = () => {
     </>
   );
 
-  // const [toggle, setToggle] = useState(false);
-  // const [heightEl, setHeightEl] = useState();
-  // const refHeight = useRef();
-  // useEffect(() => {
-  //   setHeightEl(`${refHeight.current}px`);
-  // }, []);
-  // const toggleState = () => {
-  //   setToggle(!toggle);
-  // };
-
   const sidebar = (
     <div className="sidebar">
-      {/* <div className="sidebar_menu"> */}
       <div className="sidebar_content">
         <div className="drop">
           <Companydrop />
@@ -99,15 +89,16 @@ const Header = () => {
         <div className="links">
           <div className="headdropdown">
             <button className="headdropbtn">
+              <img src={indiaflag} alt="" />
               india <i class="fa fa-caret-down"></i>
             </button>
             <div class="headdropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-              <a href="#">Link 4</a>
-              <a href="#">Link 5</a>
-              <a href="#">Link 6</a>
+              <a href="#">Afghanistan</a>
+              <a href="#">Algeria</a>
+              <a href="#">Australia</a>
+              <a href="#">Belgium</a>
+              <a href="#">UK</a>
+              <a href="#">USA</a>
             </div>
           </div>
           <div className="headdropdown">
@@ -129,6 +120,7 @@ const Header = () => {
           </div>
           <div className="headdropdown">
             <button className="headdropbtn">
+              <img src={usflag} alt="" />
               USD<i class="fa fa-caret-down"></i>
             </button>
             <div class="headdropdown-content">
@@ -153,7 +145,7 @@ const Header = () => {
       <div className="border"></div>
       <div className="navlink">
         <button>
-          <img src={logo} width="250px" height="80px" />
+          <img src={logo} width="200px" height="80px" />
         </button>
         <div className="linkdropdown">
           <button className="linkdropbtn">
@@ -166,7 +158,7 @@ const Header = () => {
             <Link to="/howtosetup">How To Setup</Link>
             <a href="#">Fees</a>
             <a href="#">Nominee</a>
-            <a href="#">Change Agent</a>
+            <Link to="/changeagent">Change Agent</Link>
             <a href="#">Company Renewal</a>
             <a href="#">FAQs</a>
             <a href="#">Download&Form</a>

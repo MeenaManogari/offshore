@@ -20,6 +20,8 @@ import visa from "../../assets/icons/footer-visa.svg";
 import paypal from "../../assets/icons/footer-paypal.svg";
 import norton from "../../assets/icons/footer-norton.svg";
 import trust from "../../assets/icons/footer-trust.png";
+import india from "../../assets/icons/indiaflag.png";
+import calling from "../../assets/icons/phoneicon.svg";
 import "./Footer.css";
 import "../../App.css";
 const Footer = () => {
@@ -27,20 +29,24 @@ const Footer = () => {
     <>
       <div className="foot">
         <div className="dropdown">
-          <button className="footbtn"> India</button>
-          <select>
-            <option value="1">
-              <img src={language} /> English
-            </option>
-            <option value="2">বাংলা</option>
-            <option value="3">हिन्दी</option>
-            <option value="4">Telugu</option>
-            <option value="5">Marathi</option>
-            <option value="6">Gujarati</option>
-            <option value="7">Kannada</option>
-            <option value="8">Odiya(Oriya)</option>
-            <option value="9">Malayalam</option>
-          </select>
+          <button className="footbtn">
+            {" "}
+            <img src={india} alt="" /> India
+          </button>
+          <div>
+            <img src={language} />
+            <select>
+              <option value="1">English</option>
+              <option value="2">বাংলা</option>
+              <option value="3">हिन्दी</option>
+              <option value="4">Telugu</option>
+              <option value="5">Marathi</option>
+              <option value="6">Gujarati</option>
+              <option value="7">Kannada</option>
+              <option value="8">Odiya(Oriya)</option>
+              <option value="9">Malayalam</option>
+            </select>
+          </div>
         </div>
         <div className="links">
           <div className="linkone">
@@ -153,61 +159,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/*<div className="listone">
-            <a href="#">
-              <img src={Hongkong} alt="flag" />
-              Hongkong:
-            </a>
-            <a href="#">
-              <img src={Australia} alt="flag" />
-              Australia:
-            </a>
-            <a href="#">
-              <img src={UK} alt="flag" />
-              UnitedKingdom:
-            </a>
-          </div>
-          <div className="listtwo">
-            <a href="#">+852 5804 3919</a>
-            <a href="#">+61 390 185 385</a>
-            <a href="#">+44 207 193 1138</a>
-          </div>
-          <div className="listthree">
-            <a href="#">
-              <img src={singapore} alt="flag" />
-              Singapore:
-            </a>
-            <a href="#">
-              <img src={USA} alt="flag" />
-              UnitedStates:
-            </a>
-            <a href="#">
-              <img src={island} alt="flag" />
-              British Virgin Islands
-            </a>
-          </div>
-          <div className="listfour">
-            <a href="#">+65 6591 9991</a>
-            <a href="#">+1 949 864 6011</a>
-            <a href="#">+1 949 864 6011</a>
-          </div>
-          <div className="listfive">
-            <a href="#">
-              <img src={lithuania} alt="flag" />
-              Lithuania:
-            </a>
-            <a href="#">
-              <img src={wapp} alt="app" />
-              +65 932 66888
-            </a>
-            <a href="#">
-              <img src={viber} alt="app" />
-              +65 932 66888
-            </a>
-          </div>
-          <div className="listsix">
-            <a href="#">+370 5266 4444</a>
-          </div> */}
         </div>
         <div className="hline"></div>
         <div className="viewmore">
