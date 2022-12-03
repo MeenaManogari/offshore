@@ -183,13 +183,13 @@ span {
   display: none;
 }
 
-.sidebar_menu {
+/* .sidebar_menu {
   display: flex;
   justify-content: space-around;
 }
 .sidebar_menu img {
   cursor: pointer;
-}
+} */
 .sidebar_content {
   display: flex;
   flex-direction: column;

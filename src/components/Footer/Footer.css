@@ -73,14 +73,12 @@ option {
 }
 .contact h4 {
   color: white;
-  padding-left: 125px;
+  padding-left: 150px;
 }
 .countries {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  padding: 20px 64px;
 }
-.listone,
+/* .listone,
 .listtwo,
 .listthree,
 .listfour,
@@ -99,7 +97,7 @@ option {
   text-decoration: none;
   color: white;
   font-size: 18px;
-}
+} */
 .hline {
   width: 100%;
   border: 0.5px solid lightgray;
@@ -157,4 +155,39 @@ option {
   text-align: right;
   padding-right: 40px;
   position: relative;
+}
+.segment a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  gap: 20px;
+  padding: 10px;
+}
+
+.listone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+.flaglinks {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .listone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+}
+@media (max-width: 468px) {
+  .listone {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
 }

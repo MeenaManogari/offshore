@@ -6,10 +6,15 @@ import notify from "../../assets/icons/notifyicon.svg";
 import search from "../../assets/icons/searchicon.svg";
 import ham from "../../assets/icons/icon-bar-ham.png";
 import cancel from "../../assets/icons/icon-bar-cancel.png";
-import Down from "../../assets/icons/feature_icons/chevron-down.svg";
+//import Down from "../../assets/icons/feature_icons/chevron-down.svg";
 import "./Header.css";
 import "../../App.css";
 import { Link } from "react-router-dom";
+import Accountdrop from "../Dropdown/AccountDropdown";
+import Servicedrop from "../Dropdown/ServiecsDropdown";
+import Ibcdrop from "../Dropdown/OneIBCdropdown";
+import Moredrop from "../Dropdown/MoreDropdown";
+import Companydrop from "../Dropdown/CompanyDropdown";
 const Header = () => {
   const [sidebarIsOn, setSidebarState] = React.useState(false);
 
@@ -37,96 +42,48 @@ const Header = () => {
     </>
   );
 
-  const [toggle, setToggle] = useState(false);
-  const [heightEl, setHeightEl] = useState();
-  const refHeight = useRef();
-  useEffect(() => {
-    setHeightEl(`${refHeight.current}px`);
-  }, []);
-  const toggleState = () => {
-    setToggle(!toggle);
-  };
+  // const [toggle, setToggle] = useState(false);
+  // const [heightEl, setHeightEl] = useState();
+  // const refHeight = useRef();
+  // useEffect(() => {
+  //   setHeightEl(`${refHeight.current}px`);
+  // }, []);
+  // const toggleState = () => {
+  //   setToggle(!toggle);
+  // };
 
   const sidebar = (
     <div className="sidebar">
-      <div className="sidebar_menu">
-        <div className="sidebar_content">
-          <div className="drop">
-            <button className="btn_visible" onClick={toggleState}>
-              Company Formation
-              <img className={toggle && "active"} src={Down} alt="" />
-            </button>
-            <div
-              className={
-                toggle ? "accordion-toogle animated " : "accordion-toggle"
-              }
-              style={{ height: toggle ? `${heightEl}` : "0px" }}
-              ref={refHeight}
-            >
-              <div
-                className="drop_links"
-                aria-hidden={toggle ? "true" : "false"}
-              >
-                <Link to="/features">Featured</Link>
-                <Link to="/jurisdiction">Jurisdictions</Link>
-                <Link to="/howtosetup">How To Setup</Link>
-                <a href="#">Fees</a>
-                <a href="#">Nominee</a>
-                <a href="#">Change Agent</a>
-                <a href="#">Company Renewal</a>
-                <a href="#">FAQs</a>
-                <a href="#">Download&Form</a>
-              </div>
-            </div>
-          </div>
+      {/* <div className="sidebar_menu"> */}
+      <div className="sidebar_content">
+        <div className="drop">
+          <Companydrop />
+        </div>
 
-          <div className="drop">
-            <button className="btn_visible" onClick={toggleState}>
-              Account Opening Consultancy
-            </button>
-            <div
-              className={
-                toggle ? "accordion-toogle animated " : "accordion-toggle"
-              }
-              style={{ height: toggle ? `${heightEl}` : "0px" }}
-              ref={refHeight}
-            >
-              <div
-                className="drop_links"
-                aria-hidden={toggle ? "true" : "false"}
-              >
-                <a href="#">Featured</a>
-                <Link to="/account">How to OpenAccount</Link>
-                <a href="#">Fees</a>
-                <a href="#">Account Opening Requirements</a>
-                <a href="#">FAQs</a>
-                <a href="#">DownloadForm</a>
-              </div>
-            </div>
-          </div>
+        <div className="drop">
+          <Accountdrop />
+        </div>
 
-          <div className="drop">
-            <button className="btn_visible">All Services</button>
-          </div>
+        <div className="drop">
+          <Servicedrop />
+        </div>
 
-          <div className="drop">
-            <button className="btn_visible">
-              One IBC Club<sup>TM</sup>
-            </button>
-          </div>
+        <div className="drop">
+          <Ibcdrop />
+        </div>
 
-          <div className="drop">
-            <button className="btn_visible">
-              One IBC<sup>TM</sup>Digital App
-            </button>
-          </div>
+        <div className="drop">
+          <button className="btn_visible">
+            One IBC<sup>TM</sup>Digital App
+          </button>
+        </div>
 
-          <div className="drop">
-            <button className="btn_visible">More</button>
-          </div>
+        <div className="drop">
+          <Moredrop />
         </div>
       </div>
     </div>
+    // </div>
   );
 
   return (

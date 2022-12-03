@@ -85,6 +85,75 @@ const Footer = () => {
         <h4>Call Us:</h4>
         <div className="countries">
           <div className="listone">
+            <div className="segment">
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={Hongkong} alt="flag" />
+                  <p>Hongkong:</p>
+                </div>
+                <p>+852 5804 3919</p>
+              </a>
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={Australia} alt="flag" />
+                  <p>Australia:</p>
+                </div>
+                <p>+61 390 185 385</p>
+              </a>
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={UK} alt="flag" />
+                  <p>UnitedKingdom:</p>
+                </div>
+                <p>+44 207 193 1138</p>
+              </a>
+            </div>
+            <div className="segment">
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={singapore} alt="flag" />
+                  <p>Singapore:</p>
+                </div>
+                <p>+65 6591 9991</p>
+              </a>
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={USA} alt="flag" />
+                  <p>UnitedStates:</p>
+                </div>
+                <p>+1 949 864 6011</p>
+              </a>
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={island} alt="flag" />
+                  <p>British Virgin Islands</p>
+                </div>
+                <p>+1 949 864 6011</p>
+              </a>
+            </div>
+            <div className="segment">
+              <a href="#">
+                <div className="flaglinks">
+                  <img src={lithuania} alt="flag" />
+                  <p>Lithuania:</p>
+                </div>
+                <p>+370 5266 4444</p>
+              </a>
+              <div className="flaglinks">
+                <a href="#">
+                  <img src={wapp} alt="app" />
+                  <p>+65 932 66888</p>
+                </a>
+              </div>
+              <div className="flaglinks">
+                <a href="#">
+                  <img src={viber} alt="app" />
+                  <p>+65 932 66888</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*<div className="listone">
             <a href="#">
               <img src={Hongkong} alt="flag" />
               Hongkong:
@@ -138,7 +207,7 @@ const Footer = () => {
           </div>
           <div className="listsix">
             <a href="#">+370 5266 4444</a>
-          </div>
+          </div> */}
         </div>
         <div className="hline"></div>
         <div className="viewmore">
