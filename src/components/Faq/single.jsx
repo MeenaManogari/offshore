@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./faq.css";
 import Down from "../../assets/icons/feature_icons/chevron-down.svg";
-import add from "../../assets/icons/feature_icons/plus.svg";
-import sub from "../../assets/icons/feature_icons/plus.svg";
 import Faqbg from "../.././assets/images/feature/faqs-global.png";
 
 const Single = () => {
@@ -53,35 +51,27 @@ const Single = () => {
     },
   ];
 
-  const [toggle, setToggle] = useState(false);
-  const [heightEl, setHeightEl] = useState();
-  const refHeight = useRef();
-  useEffect(() => {
-    setHeightEl(`${refHeight.current.scrollHeight}px`);
-  }, []);
-  const toggleState = () => {
-    setToggle(!toggle);
-  };
-
   const renderfaq = questions.map((faqs) => {
+    const [toggle, setToggle] = useState(false);
+    const toggleState = () => {
+      setToggle(!toggle);
+    };
     return (
       <div className="acccordion">
-        <button className="accordion-visible" onClick={toggleState}>
+        <div className="accordion-visible" onClick={toggleState}>
           <h5>{faqs.id}</h5>
           <h4>{faqs.title}</h4>
           <img className={toggle && "active"} src={Down} alt="" />
-        </button>
-        <div
-          className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
-          style={{ height: toggle ? `${heightEl}` : "0px" }}
-          ref={refHeight}
-        >
-          <div className="accordion-para">
-            <p aria-hidden={toggle ? "true" : "false"}>
-              <h2>{faqs.info}</h2>
-            </p>
-          </div>
         </div>
+        {toggle && (
+          <div>
+            <div className="accordion-para">
+              <div>
+                <h2>{faqs.info}</h2>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   });
