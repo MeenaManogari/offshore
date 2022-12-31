@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
-//import { Link } from "react-router-dom";
+import "./hamdropdown.css";
+import { Link } from "react-router-dom";
 import down from "../../assets/icons/feature_icons/chevron-down.svg";
 
 const Accountdrop = () => {
@@ -18,20 +19,16 @@ const Accountdrop = () => {
         Account Opening Consultancy
         <img className={toggle && "active"} src={down} alt="" />
       </button>
-      <div
-        className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
-        style={{ height: toggle ? `${heightEl}` : "0px" }}
-        ref={refHeight}
-      >
+      {toggle && (
         <div className="drop_links" aria-hidden={toggle ? "true" : "false"}>
           <a href="#">Featured</a>
-          <a href="#">How to OpenAccount</a>
+          <Link to="/account">How to OpenAccount</Link>
           <a href="#">Fees</a>
           <a href="#">Account Opening Requirements</a>
           <a href="#">FAQs</a>
           <a href="#">DownloadForm</a>
         </div>
-      </div>
+      )}
     </div>
   );
   return (

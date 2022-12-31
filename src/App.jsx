@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Featuresection from "./pages/CompanyFormation/Featured";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
+
 import Footer from "./components/Footer/Footer";
 import Appload from "./components/DownloadAbout/Loadabout";
 import Companysetup from "./pages/CompanyFormation/companysetup";
@@ -12,12 +12,15 @@ import Aboutpage from "./pages/More/Aboutus";
 import Ibcbenefits from "./pages/OneIBCClubs/member";
 import Accountopensection from "./pages/Openbankaccount/account";
 import Agentchange from "./pages/CompanyFormation/changeagent";
+import Headers from "./components/Headers/Header";
+import Headlinks from "./components/Headerlinks/Headlinks";
 
 const App = () => {
   return (
     <>
-      <Header />
-
+      {/* <Header /> */}
+      <Headers />
+      <Headlinks />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Featuresection />} />

@@ -18,11 +18,7 @@ const Servicedrop = () => {
         All Services
         <img className={toggle && "active"} src={down} alt="" />
       </button>
-      <div
-        className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
-        style={{ height: toggle ? `${heightEl}` : "0px" }}
-        ref={refHeight}
-      >
+      {toggle && (
         <div className="drop_links" aria-hidden={toggle ? "true" : "false"}>
           <a href="#">Tax-Accounting&Auditing</a>
           <a href="#">MerchantAccountOnline</a>
@@ -33,7 +29,7 @@ const Servicedrop = () => {
           <a href="#">Business Licensing</a>
           <a href="#">Company Strike Off</a>
         </div>
-      </div>
+      )}
     </div>
   );
   return (

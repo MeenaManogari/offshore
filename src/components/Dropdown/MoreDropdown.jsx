@@ -18,11 +18,7 @@ const Moredrop = () => {
         More
         <img className={toggle && "active"} src={down} alt="" />
       </button>
-      <div
-        className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
-        style={{ height: toggle ? `${heightEl}` : "0px" }}
-        ref={refHeight}
-      >
+      {toggle && (
         <div className="drop_links" aria-hidden={toggle ? "true" : "false"}>
           <a href="#">Promotion</a>
           <Link to="/aboutus">AboutUs</Link>
@@ -32,7 +28,7 @@ const Moredrop = () => {
           <a href="#">FAQs</a>
           <a href="#">Career</a>
         </div>
-      </div>
+      )}
     </div>
   );
   return (

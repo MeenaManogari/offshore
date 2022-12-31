@@ -1,0 +1,39 @@
+.head-first {
+  padding: 0 15px;
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-contact a {
+  color: #f12e36;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.head-contact {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  padding: 16px 0;
+}
+strong {
+  font-size: 18px;
+  color: #2e2e2e;
+}
+.head-select button {
+  border: none;
+  background-color: inherit;
+  padding: 18px;
+  font-size: 18px;
+}
+.head-select button:hover {
+  background-color: #f12e36;
+  color: #ffffff;
+}
+.head-select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

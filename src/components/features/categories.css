@@ -43,3 +43,13 @@
   background-color: #f12e36;
   color: white;
 }
+@media (max-width: 1060px) {
+  .bglinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}

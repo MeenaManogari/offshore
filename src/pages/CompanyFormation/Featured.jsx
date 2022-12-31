@@ -13,6 +13,7 @@ const Featuresection = () => {
     <>
       <Hero />
       <CompanyServices />
+
       <Category />
       <Jurisdictions />
       <Single />

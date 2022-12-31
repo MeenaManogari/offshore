@@ -1,0 +1,146 @@
+.head-links {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  padding-left: 15px;
+}
+.page-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.page-links button {
+  font-size: 16.8px;
+  padding: 15px 30px;
+  border: none;
+  background-color: inherit;
+  font-size: 17px;
+}
+.company_drops button:hover {
+  background-color: #ccc;
+}
+.AOC_drops button:hover {
+  background-color: #ccc;
+}
+.service_drops button:hover {
+  background-color: #ccc;
+}
+.IBC_drops button:hover {
+  background-color: #ccc;
+}
+.more_drops button:hover {
+  background-color: #ccc;
+}
+.search #setup {
+  color: white;
+  background-color: #cc1f26;
+  padding: 35px 15px;
+}
+.search {
+  margin-left: 20px;
+}
+.search button {
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+.search img {
+  width: 30px;
+  height: 30px;
+}
+.company_content,
+.AOC_content,
+.service_content,
+.ibc_content,
+.more_content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+  margin-top: 10px;
+}
+
+.company_drops:hover .company_content {
+  display: block;
+  width: calc(100% - 15px);
+}
+.AOC_drops:hover .AOC_content {
+  display: block;
+  width: calc(100% - 15px);
+}
+.service_drops:hover .service_content {
+  display: block;
+  width: calc(100% - 15px);
+}
+.IBC_drops:hover .ibc_content {
+  display: block;
+  width: calc(100% - 15px);
+}
+.more_drops:hover .more_content {
+  display: block;
+  width: calc(100% - 15px);
+}
+.company_drops,
+.AOC_drops,
+.service_drops,
+.IBC_drops,
+.more_drops,
+.app_drops {
+  padding-top: 20px;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  background-color: white;
+  padding: 16px;
+  display: none;
+}
+.ham-search {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.sidebar_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar_content button {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  text-align: left;
+  padding: 20px;
+}
+@media (max-width: 960px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    display: block;
+  }
+  .page-links > div {
+    display: none;
+  }
+  .head-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+  }
+}

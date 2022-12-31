@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import "./hamdropdown.css";
 import down from "../../assets/icons/feature_icons/chevron-down.svg";
 
 const Companydrop = () => {
@@ -18,11 +19,12 @@ const Companydrop = () => {
         Company Formation
         <img className={toggle && "active"} src={down} alt="" />
       </button>
-      <div
+      {/* <div
         className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
         style={{ height: toggle ? `${heightEl}` : "0px" }}
         ref={refHeight}
-      >
+      > */}{" "}
+      {toggle && (
         <div className="drop_links" aria-hidden={toggle ? "true" : "false"}>
           <Link to="/features">Featured</Link>
           <Link to="/jurisdiction">Jurisdictions</Link>
@@ -34,7 +36,7 @@ const Companydrop = () => {
           <a href="#">FAQs</a>
           <a href="#">Download&Form</a>
         </div>
-      </div>
+      )}
     </div>
   );
   return (

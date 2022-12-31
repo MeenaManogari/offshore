@@ -30,13 +30,13 @@
 span {
   color: red;
 }
-.links button {
+.headlinks button {
   border: none;
   background-color: white;
   font-size: 18px;
   cursor: pointer;
 }
-.links {
+.headlinks {
   display: flex;
   gap: 20px;
 }
@@ -186,10 +186,10 @@ span {
 /* .sidebar_menu {
   display: flex;
   justify-content: space-around;
-}
+}*/
 .sidebar_menu img {
   cursor: pointer;
-} */
+}
 .sidebar_content {
   display: flex;
   flex-direction: column;
@@ -254,6 +254,9 @@ span {
   .navlink > .linkdropdown,
   #ibcclub {
     display: none;
+  }
+  .hamburger {
+    float: right;
   }
   .sidebar {
     display: block;

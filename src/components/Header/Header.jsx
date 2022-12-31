@@ -8,7 +8,7 @@ import ham from "../../assets/icons/icon-bar-ham.png";
 import cancel from "../../assets/icons/icon-bar-cancel.png";
 import "./Header.css";
 import "../../App.css";
-import { Link } from "react-router-dom";
+
 import Accountdrop from "../Dropdown/AccountDropdown";
 import Servicedrop from "../Dropdown/ServiecsDropdown";
 import Ibcdrop from "../Dropdown/OneIBCdropdown";
@@ -86,7 +86,7 @@ const Header = () => {
             <span> +65 6591 9991</span>
           </p>
         </div>
-        <div className="links">
+        <div className="headlinks">
           <div className="headdropdown">
             <button className="headdropbtn">
               <img src={indiaflag} alt="" />

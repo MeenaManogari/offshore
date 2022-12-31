@@ -18,17 +18,13 @@ const Ibcdrop = () => {
         One IBC Club<sup>TM</sup>
         <img className={toggle && "active"} src={down} alt="" />
       </button>
-      <div
-        className={toggle ? "accordion-toogle animated " : "accordion-toggle"}
-        style={{ height: toggle ? `${heightEl}` : "0px" }}
-        ref={refHeight}
-      >
+      {toggle && (
         <div className="drop_links" aria-hidden={toggle ? "true" : "false"}>
           <Link to="/member">Member Benefits</Link>
           <Link to="/member">Tiers and Benefits</Link>
           <Link to="/member">How it works</Link>
         </div>
-      </div>
+      )}
     </div>
   );
   return (
