@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./Headlinks.css";
-import { Link } from "react-router-dom";
+
 import Accountdrop from "../Dropdown/AccountDropdown";
 import Servicedrop from "../Dropdown/ServiecsDropdown";
 import Ibcdrop from "../Dropdown/OneIBCdropdown";
 import Moredrop from "../Dropdown/MoreDropdown";
 import Companydrop from "../Dropdown/CompanyDropdown";
-import dewall from "../../assets/images/Home/dewall_logo.png";
+import dewall from "../../assets/images/home/dewall_logo.png";
 import search from "../../assets/icons/Headericons/header-search.svg";
 import Companyformation from "../DropdownContents/CompanyFormation";
 import Accountopening from "../DropdownContents/AccountOpeningConsultancy";
@@ -15,7 +15,6 @@ import Oneibc from "../DropdownContents/OneIBCclub";
 import Morepages from "../DropdownContents/More";
 import ham from "../../assets/icons/Headericons/header-ham.png";
 import cancel from "../../assets/icons/Headericons/header-cancel.png";
-//import dropsdown from "../../assets/icons/Headericons/dropdown.png";
 
 const Headlinks = () => {
   const [sidebarIsOn, setSidebarState] = useState(false);
