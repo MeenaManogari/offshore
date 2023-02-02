@@ -47,8 +47,8 @@
   color: #8d8d8d;
 }
 .account_card {
-  align-content: center;
-  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 .account_butn {
   color: #fff;
@@ -76,7 +76,10 @@
 .taxaudicting {
   padding: 25px 100px 0 100px;
 }
-
+.account_cardfull {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 @media (max-width: 90rem) {
   .accounting {
     display: grid;

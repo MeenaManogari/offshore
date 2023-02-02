@@ -1,0 +1,107 @@
+.parentfooter {
+  padding: 30px 30px 45px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Footerchildone {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Footerchildone h3 {
+  color: white;
+}
+.Footerchildtwo a {
+  text-decoration: none;
+  color: white;
+}
+.Footerchildtwo {
+  display: grid;
+  grid-template-areas:
+    "one four seven"
+    "two five eight"
+    "three six nine";
+  gap: 30px;
+}
+#flagone {
+  grid-area: one;
+}
+#flagtwo {
+  grid-area: two;
+}
+#flagthree {
+  grid-area: three;
+}
+#flagfour {
+  grid-area: four;
+}
+#flagfive {
+  grid-area: five;
+}
+#flagsix {
+  grid-area: six;
+}
+#flagseven {
+  grid-area: seven;
+}
+#flageight {
+  grid-area: eight;
+}
+#flagnine {
+  grid-area: nine;
+}
+.country-flag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.cardlink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cardlinkbg {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.viewslink {
+  border-top: 1px solid rgb(92, 91, 91);
+  border-bottom: 1px solid rgb(92, 91, 91);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.viewslink a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.copyrights p {
+  color: #a8a8a8;
+  text-align: center;
+}
+.copyrights {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .Footerchildtwo {
+    display: grid;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+      "eight"
+      "nine";
+    gap: 30px;
+  }
+}

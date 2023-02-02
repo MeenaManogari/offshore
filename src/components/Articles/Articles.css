@@ -1,0 +1,176 @@
+.article_head {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* .article_head h1 {
+  padding-left: 200px;
+} */
+.article_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 100px; */
+}
+.beginners {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.article_img img {
+  width: 130%;
+  height: auto;
+  position: relative;
+  /* z-index: -1; */
+}
+.article_texts h2 a {
+  color: #333333;
+  text-decoration: none;
+}
+.article_texts h2 a:hover {
+  color: #f12e36;
+}
+.article_texts p {
+  color: #333333;
+}
+.article_texts #artlink {
+  color: #f12e36;
+  text-align: right;
+}
+.article_texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 20px 20px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
+  width: 130%;
+}
+.plan_img img {
+  width: 100%;
+  height: auto;
+}
+
+.lunar_img img {
+  width: 100%;
+  height: auto;
+}
+
+.effective_plan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+.happy_lunar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+.lunar_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.plan_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.plan_text h2 a {
+  text-decoration: none;
+  color: #333333;
+}
+.plan_text h2 a:hover {
+  color: #f12e36;
+}
+.lunar_text h2 a {
+  text-decoration: none;
+  color: #333333;
+}
+.lunar_text h2 a:hover {
+  color: #f12e36;
+}
+.lunar_text p {
+  color: #333333;
+}
+.plan_text p {
+  color: #333333;
+}
+.small_cards {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  gap: 100px;
+}
+.art_btn {
+  text-align: center;
+}
+.art_btn button {
+  color: white;
+  font-size: 16px;
+  background-color: #f12e36;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 23px;
+  width: 260px;
+}
+.art_btn button:hover {
+  background-color: #2e2e2e;
+}
+.effective_plan #effectlink,
+.happy_lunar #lunarlink {
+  color: #f12e36;
+}
+@media (max-width: 1000px) {
+  .small_cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
+  .article_main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .effective_plan {
+    width: 100%;
+  }
+  .happy_lunar {
+    width: 100%;
+  }
+
+  .article_texts {
+    position: static;
+    border: 1px solid darkgray;
+  }
+  .article_head h1 {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 780px) {
+  .article_texts p {
+    display: none;
+  }
+  .lunar_text p {
+    display: none;
+  }
+  .plan_text p {
+    display: none;
+  }
+  .effective_plan {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .happy_lunar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

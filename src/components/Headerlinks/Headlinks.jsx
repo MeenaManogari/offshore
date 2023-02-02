@@ -15,6 +15,7 @@ import Oneibc from "../DropdownContents/OneIBCclub";
 import Morepages from "../DropdownContents/More";
 import ham from "../../assets/icons/Headericons/header-ham.png";
 import cancel from "../../assets/icons/Headericons/header-cancel.png";
+import Headarea from "../reponsives/headarea";
 
 const Headlinks = () => {
   const [sidebarIsOn, setSidebarState] = useState(false);
@@ -126,12 +127,15 @@ const Headlinks = () => {
             {sidebarIsOn && sidebar}
           </div>
           <div className="search">
-            <button>
+            <button id="searching">
               <img src={search} alt="search" />
             </button>
             <button id="setup">Set Up Now</button>
           </div>
         </div>
+      </div>
+      <div className="headjoint">
+        <Headarea />
       </div>
     </>
   );

@@ -1,0 +1,125 @@
+.tax_flags {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.tax_text {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
+}
+.tax_text a {
+  text-align: right;
+  color: #f12e36;
+}
+.tax_cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.tax_cards #cityimg {
+  width: 100%;
+  height: auto;
+}
+.tax_cardlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+.tax_main {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.tax_btn {
+  margin-top: 150px;
+  text-align: center;
+}
+.tax_btn button {
+  color: white;
+  font-size: 16px;
+  background-color: #f12e36;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 23px;
+  width: 260px;
+}
+.tax_btn button:hover {
+  background-color: #2e2e2e;
+}
+.tax_text p {
+  color: #2e2e2e;
+  font-size: 18px;
+}
+.tax_flags h2 {
+  color: #333333;
+}
+@media (max-width: 1484px) {
+  .tax_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
+  }
+  .tax_cards {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+@media (max-width: 1200px) {
+  .tax_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
+  }
+  .tax_cards {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+@media (max-width: 1080px) {
+  .tax_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
+  }
+  .tax_cards {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .tax_cardlist {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .tax_text p {
+    color: #2e2e2e;
+    font-size: 16px;
+  }
+}

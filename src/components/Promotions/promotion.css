@@ -1,0 +1,67 @@
+.promoimg img {
+  width: 100%;
+  height: auto;
+}
+.promotext h2 a {
+  color: #333;
+  text-decoration: none;
+  font-size: 27px;
+}
+.promotext h2 a:hover {
+  color: #f12e36;
+}
+.promotext p {
+  color: #8d8d8d;
+  font-size: 18px;
+}
+.promotion_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.promo_render {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.promo_btn button {
+  color: white;
+  font-size: 16px;
+  background-color: #f12e36;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 23px;
+  width: 260px;
+}
+.promo_btn button:hover {
+  background-color: #2e2e2e;
+}
+.promo_btn {
+  text-align: center;
+}
+.promotion_head {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.promotion_head h1 {
+  color: #2e2e2e;
+}
+@media (max-width: 1000px) {
+  .promo_render {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .promotext p {
+    display: none;
+  }
+  .promotext h2 a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}

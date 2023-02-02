@@ -3,8 +3,6 @@ import "./App.css";
 import Home from "./pages/Home";
 import Featuresection from "./pages/CompanyFormation/Featured";
 import { Route, Routes } from "react-router-dom";
-
-import Footer from "./components/Footer/Footer";
 import Appload from "./components/DownloadAbout/Loadabout";
 import Companysetup from "./pages/CompanyFormation/companysetup";
 import Companyjuris from "./pages/CompanyFormation/Jurisdiction";
@@ -14,6 +12,8 @@ import Accountopensection from "./pages/Openbankaccount/account";
 import Agentchange from "./pages/CompanyFormation/changeagent";
 import Headers from "./components/Headers/Header";
 import Headlinks from "./components/Headerlinks/Headlinks";
+import Footerlinks from "./components/FooterLinks/Footerlinks";
+import Footers from "./components/Footers/Footer";
 
 const App = () => {
   return (
@@ -32,7 +32,8 @@ const App = () => {
         <Route path="/changeagent" element={<Agentchange />} />
       </Routes>
       <Appload />
-      <Footer />
+      <Footers />
+      <Footerlinks />
     </>
   );
 };

@@ -1,0 +1,30 @@
+.head-area button {
+  border: none;
+  background-color: inherit;
+  padding: 18px;
+  font-size: 18px;
+}
+.head-area button:hover {
+  background-color: #f12e36;
+  color: #ffffff;
+}
+.head-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headarea-icons button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.headarea-icons button:hover {
+  background-color: #f12e36;
+  color: #ffffff;
+}
+.headertwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
