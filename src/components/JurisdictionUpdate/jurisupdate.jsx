@@ -1,10 +1,10 @@
 import React from "react";
 import "./jurisupdate.css";
-import seychellesexports from "../../assets/images/Home/jurisdiction/seychelles-exports.jpg";
-import investbelize from "../../assets/images/Home/jurisdiction/invest-opportunities.jpg";
-import businessbelize from "../../assets/images/Home/jurisdiction/business-belize.jpg";
-import establishswitz from "../../assets/images/Home/jurisdiction/establish-switzerland.jpg";
-import protectassets from "../../assets/images/Home/jurisdiction/protect-assets.jpg";
+import seychellesexports from "../../assets/images/home/jurisdiction/seychelles-exports.jpg";
+import investbelize from "../../assets/images/home/jurisdiction/invest-opportunities.jpg";
+import businessbelize from "../../assets/images/home/jurisdiction/business-belize.jpg";
+import establishswitz from "../../assets/images/home/jurisdiction/establish-switzerland.jpg";
+import protectassets from "../../assets/images/home/jurisdiction/protect-assets.jpg";
 
 const Jurisupdate = () => {
   return (
