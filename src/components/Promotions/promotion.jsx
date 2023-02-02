@@ -1,9 +1,9 @@
 import React from "react";
 import "./promotion.css";
-import fees from "../../assets/images/Home/promotion/announcement-fee.jpg";
-import betterservice from "../../assets/images/Home/promotion/better-services.jpg";
-import octobersale from "../../assets/images/Home/promotion/october-sale.jpg";
-import openbvi from "../../assets/images/Home/promotion/openbvicompany.jpg";
+import fees from "../../assets/images/home/promotion/announcement-fee.jpg";
+import betterservice from "../../assets/images/home/promotion/better-services.jpg";
+import octobersale from "../../assets/images/home/promotion/october-sale.jpg";
+import openbvi from "../../assets/images/home/promotion/openbvicompany.jpg";
 const Promotion = () => {
   const promocards = [
     {
