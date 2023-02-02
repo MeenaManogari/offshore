@@ -1,7 +1,5 @@
 import React from "react";
-
 import Hero from "../components/HeroSlide/HeroSlide";
-
 import Account from "../components/AccoutOpeningConsult/account";
 import Formation from "../components/CompanyFormation/formation";
 //import Tax from "../components/tax/tax";
