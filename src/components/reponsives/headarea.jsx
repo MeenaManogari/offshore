@@ -11,12 +11,12 @@ const Headarea = () => {
       <div className="head-area">
         <button>
           <img src={indiaflag} alt="India" />
-          India
+          <h5> India</h5>
         </button>
-        <button>English</button>
+        <button>EN</button>
         <button>
           <img src={usd} alt="currency" />
-          USD
+          <h5> USD</h5>
         </button>
       </div>
       <div className="headarea-icons">

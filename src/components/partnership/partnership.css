@@ -18,11 +18,12 @@
   font-weight: 700;
   padding: 0 0 1rem 0;
 }
-.partnership-head ul {
+/* .partnership-head ul {
   padding: 1rem 0 0 1rem;
-}
+} */
 .partnership-head li {
-  padding: 0 0 1rem 0;
+  /* padding: 0 0 1rem 0; */
+  list-style-type: disc;
 }
 
 .partnership-subhead {
@@ -56,4 +57,15 @@
 .partnership_cover {
   padding: 4rem 4rem 4rem 0;
   gap: 32px;
+}
+@media (max-width: 1000px) {
+  .partnership_complete {
+    padding: 2rem;
+  }
+}
+@media (max-width: 460px) {
+  .partnership_cover {
+    padding: 30px 30px 40px 0;
+    gap: 32px;
+  }
 }

@@ -33,8 +33,8 @@
   box-shadow: 5px 5px 5px 5px lightgray;
 }
 #whitecard img {
-  height: 120px;
-  width: 250px;
+  width: 100%;
+  height: auto;
 }
 .mediacards {
   display: flex;
@@ -42,7 +42,6 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
-
   background-color: white;
 }
 #views {
@@ -76,12 +75,9 @@
 .mediaabout h2 {
   font-size: 30px;
 }
-/* .mobiles img {
-  position: absolute;
-  right: 0;
-  left: 1000px;
-  z-index: -1;
-} */
+.mobiles img {
+  width: 100%;
+}
 .learn button {
   border: 1px solid #ffffff;
   width: 100%;
@@ -128,5 +124,19 @@
     display: grid;
     grid-template-columns: auto;
     height: auto;
+  }
+}
+@media (max-width: 480px) {
+  #whitecard {
+    padding: 15px;
+  }
+  .mediaabout {
+    padding: 40px;
+  }
+  .mediaabout h2 {
+    font-size: 20px;
+  }
+  #down h1 {
+    font-size: 20px;
   }
 }

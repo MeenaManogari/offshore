@@ -122,4 +122,18 @@
     color: #2e2e2e;
     font-size: 16px;
   }
+  .tax_cardlist {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+  }
+  .tax_main {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .tax_main h1 {
+    font-size: 22px;
+  }
 }

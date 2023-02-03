@@ -23,8 +23,18 @@
   background-color: #f12e36;
   color: #ffffff;
 }
+.headarea-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .headertwo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .head-area button h5 {
+    display: none;
+  }
 }

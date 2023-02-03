@@ -62,6 +62,7 @@ const Formation = () => {
           background: `url(${company.image})`,
           backgroundSize: "cover",
           backgroundImage: "Transparent",
+          width: "100%",
         }}
       >
         <div className="appp">

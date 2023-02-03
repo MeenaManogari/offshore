@@ -163,8 +163,15 @@
     font-size: 14px;
   }
   .search #setup {
-    /* color: white;
-    background-color: #cc1f26; */
     padding: 25px 5px;
+  }
+}
+@media (max-width: 460px) {
+  .search #setup {
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+  .sidebar {
+    top: 60px;
   }
 }

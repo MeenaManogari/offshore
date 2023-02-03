@@ -174,3 +174,22 @@
     gap: 20px;
   }
 }
+@media (max-width: 480px) {
+  .article_head {
+    padding: 32px;
+  }
+  .lunar_text h2 a {
+    font-size: 15px;
+  }
+  .plan_text h2 a {
+    font-size: 15px;
+  }
+  .article_img img {
+    width: 100%;
+    height: auto;
+  }
+  .article_texts {
+    width: 100%;
+    height: auto;
+  }
+}
