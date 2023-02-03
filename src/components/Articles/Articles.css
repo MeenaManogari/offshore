@@ -4,9 +4,9 @@
   flex-direction: column;
   gap: 50px;
 }
-/* .article_head h1 {
-  padding-left: 200px;
-} */
+.article_head h1 {
+  font-size: 24px;
+}
 .article_main {
   display: flex;
   flex-direction: row;
@@ -19,7 +19,7 @@
   position: relative;
 }
 .article_img img {
-  width: 130%;
+  width: 100%;
   height: auto;
   position: relative;
   /* z-index: -1; */
@@ -27,12 +27,14 @@
 .article_texts h2 a {
   color: #333333;
   text-decoration: none;
+  font-size: 20px;
 }
 .article_texts h2 a:hover {
   color: #f12e36;
 }
 .article_texts p {
   color: #333333;
+  font-size: 14px;
 }
 .article_texts #artlink {
   color: #f12e36;
@@ -44,10 +46,10 @@
   gap: 20px;
   padding: 10px 20px 20px;
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 0;
   background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), #fff);
-  width: 130%;
+  width: 100%;
 }
 .plan_img img {
   width: 100%;
@@ -63,13 +65,13 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 70%;
+  width: 100%;
 }
 .happy_lunar {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 70%;
+  width: 100%;
 }
 .lunar_text {
   display: flex;
@@ -84,6 +86,7 @@
 .plan_text h2 a {
   text-decoration: none;
   color: #333333;
+  font-size: 20px;
 }
 .plan_text h2 a:hover {
   color: #f12e36;
@@ -91,15 +94,18 @@
 .lunar_text h2 a {
   text-decoration: none;
   color: #333333;
+  font-size: 20px;
 }
 .lunar_text h2 a:hover {
   color: #f12e36;
 }
 .lunar_text p {
   color: #333333;
+  font-size: 14px;
 }
 .plan_text p {
   color: #333333;
+  font-size: 14px;
 }
 .small_cards {
   display: flex;

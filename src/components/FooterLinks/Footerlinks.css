@@ -12,10 +12,12 @@
 }
 .Footerchildone h3 {
   color: white;
+  font-size: 16px;
 }
 .Footerchildtwo a {
   text-decoration: none;
   color: white;
+  font-size: 14px;
 }
 .Footerchildtwo {
   display: grid;
@@ -79,11 +81,12 @@
 .viewslink a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
 }
 .copyrights p {
   color: #a8a8a8;
   text-align: center;
+  font-size: 14px;
 }
 .copyrights {
   display: flex;

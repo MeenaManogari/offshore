@@ -1,6 +1,7 @@
 .footer_drop {
   display: flex;
-  gap: 280px;
+  flex-direction: row;
+  gap: 180px;
 }
 .footer_pagelinks {
   display: grid;
@@ -22,7 +23,7 @@
 .pagelinksone a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
 }
 .pagelinkstwo {
   display: grid;
@@ -32,28 +33,28 @@
 .pagelinkstwo a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
 }
 .countrylinks a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
 }
 .lang_select select {
   background: none;
   border: none;
   color: white;
   outline: none;
-  font-size: 20px;
+  font-size: 14px;
 }
 option {
   color: black;
   outline: none;
-  font-size: 20px;
+  font-size: 14px;
 }
 .social_media h3 {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 .social_media {
   display: flex;

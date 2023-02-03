@@ -19,14 +19,14 @@
   padding: 16px 0;
 }
 strong {
-  font-size: 18px;
+  font-size: 14px;
   color: #2e2e2e;
 }
 .head-select button {
   border: none;
   background-color: inherit;
   padding: 18px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .head-select button:hover {
   background-color: #f12e36;

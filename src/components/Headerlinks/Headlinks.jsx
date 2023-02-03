@@ -79,7 +79,7 @@ const Headlinks = () => {
       <div className="head-links">
         <div className="logo">
           <a href="#">
-            <img src={dewall} alt="logo" height="60px" width="200px" />
+            <img src={dewall} alt="logo" height="50px" width="160px" />
           </a>
         </div>
         <div className="page-links">
